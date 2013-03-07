@@ -1,0 +1,53 @@
+body
+{
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+}
+
+#container a:link
+{
+  color: #132c5f;
+}
+
+#container a:visited
+{
+  color: #660000;
+}
+
+#container a:link,
+#container a:visited
+{
+  text-decoration: none;
+}
+
+#content-text a:link,
+#content-text a:visited
+{
+  font-weight: bold;
+}
+
+#container a:hover,
+#container a:visited:hover
+{
+  text-decoration: underline;
+}
+
+#content h1
+{
+  font-size: 140%;
+}
+
+#content h2
+{
+  font-size: 120%;
+}
+
+#content h3
+{
+  font-size: 100%;
+}
+
+#content div.breadcrumb
+{
+  font-size: 80%;
+}
