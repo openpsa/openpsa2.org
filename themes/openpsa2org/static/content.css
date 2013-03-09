@@ -4,18 +4,18 @@ body
   font-size: 0.9em;
 }
 
-#container a:link
+#content a:link
 {
   color: #132c5f;
 }
 
-#container a:visited
+#content a:visited
 {
   color: #660000;
 }
 
-#container a:link,
-#container a:visited
+#content a:link,
+#content a:visited
 {
   text-decoration: none;
 }
@@ -26,8 +26,7 @@ body
   font-weight: bold;
 }
 
-#container a:hover,
-#container a:visited:hover
+#content a:hover
 {
   text-decoration: underline;
 }
