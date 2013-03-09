@@ -134,25 +134,27 @@ body
 
 #siteinfo a
 {
-    color: black;
+    color: #666;
     text-decoration: none;
 }
 
 #siteinfo a:hover
 {
+    color: #333;
     text-decoration: underline;
 }
 
 #siteinfo p
 {
-    color: #333;
+    color: #666;
     padding: 0;
     margin: 0;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
 }
 
 #siteinfo p.login
 {
-  float: right;
+    float: right;
 }
 
 body.frontpage #content-text

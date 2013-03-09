@@ -91,7 +91,7 @@
 {
     margin: 0;
     padding: .3em 0;
-    position: relative
+    position: relative;
 }
 
 #content-text .hentry div.published
@@ -110,8 +110,8 @@
 
 #content-text .hentry h2.entry-title
 {
-    margin-top: 0;
-    margin-bottom: .2em
+    margin-top: .8em;
+    margin-bottom: .7em;
 }
 
 #content-text .hentry .excerpt
@@ -122,14 +122,8 @@
 
 #content-text .hentry .content
 {
+    border-bottom: 1px solid #ccc;
     padding-bottom: 2.5em;
-    border-bottom: 1px solid #ccc
-}
-
-#content-text .hentry div.meta
-{
-    font-size: .75em;
-    margin-bottom: 1.5em;
 }
 
 #content-text .hentry div.thumbnail
@@ -142,7 +136,16 @@
 #content-text .hentry p.entry-summary
 {
     padding-top: 0;
-    margin: .5em 0
+    margin: .8em 0;
+}
+
+#content-text .hentry .meta
+{
+    color: #555;
+    text-align: right;
+    font-size: .75em;
+    padding-bottom: .3em;
+    border-top: 1px solid #ddd
 }
 
 #content-text .hentry div.thumbnail img
