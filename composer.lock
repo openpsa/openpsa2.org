@@ -2,6 +2,55 @@
     "hash": "6c1e5701a75cecf1e1eaa9aaf9ba9e32",
     "packages": [
         {
+            "name": "gregwar/captcha",
+            "version": "dev-master",
+            "target-dir": "Gregwar/Captcha",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Gregwar/Captcha.git",
+                "reference": "048a19cef4ce71722f19bacd32958796317271ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Gregwar/Captcha/zipball/048a19cef4ce71722f19bacd32958796317271ae",
+                "reference": "048a19cef4ce71722f19bacd32958796317271ae",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "captcha",
+            "autoload": {
+                "psr-0": {
+                    "Gregwar\\Captcha": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Grégoire Passault",
+                    "email": "g.passault@gmail.com",
+                    "homepage": "http://www.gregwar.com/"
+                },
+                {
+                    "name": "Jeremy Livingston",
+                    "email": "jeremy.j.livingston@gmail.com"
+                }
+            ],
+            "description": "Captcha generator",
+            "homepage": "https://github.com/Gregwar/Captcha",
+            "keywords": [
+                "bot",
+                "captcha",
+                "spam"
+            ],
+            "time": "2013-01-21 16:28:52"
+        },
+        {
             "name": "midgard/midgardmvc-helper-urlize",
             "version": "dev-master",
             "source": {
@@ -47,15 +96,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/openpsa.git",
-                "reference": "cc061828b80a4e003776926a9396a6a4665baea0"
+                "reference": "ef277a5b0b54f25bd91297ebaf38a326940b1bea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/openpsa/zipball/cc061828b80a4e003776926a9396a6a4665baea0",
-                "reference": "cc061828b80a4e003776926a9396a6a4665baea0",
+                "url": "https://api.github.com/repos/flack/openpsa/zipball/ef277a5b0b54f25bd91297ebaf38a326940b1bea",
+                "reference": "ef277a5b0b54f25bd91297ebaf38a326940b1bea",
                 "shasum": ""
             },
             "require": {
+                "gregwar/captcha": ">=1.0",
                 "midgard/midgardmvc-helper-urlize": "@dev",
                 "pear-hp/htmlpurifier": "*",
                 "pear-pear/auth_sasl": "*",
@@ -66,7 +116,6 @@
                 "pear-pear/mail": "*",
                 "pear-pear/mail_mime": "*",
                 "pear-pear/net_smtp": "*",
-                "pear-pear/text_captcha": "*",
                 "pear-pear/text_diff": "*",
                 "pear-pear/xml_rpc": "*",
                 "php": ">=5.3.0"
@@ -113,7 +162,7 @@
                 "source": "https://github.com/flack/openpsa/tree/master",
                 "issues": "https://github.com/flack/openpsa/issues"
             },
-            "time": "2013-03-07 20:59:54"
+            "time": "2013-03-09 13:43:49"
         },
         {
             "name": "pear-htmlpurifier.org/HTMLPurifier",
@@ -546,33 +595,6 @@
             "description": "Structures_Graph is a package for creating and manipulating graph datastructures. It allows building of directed\nand undirected graphs, with data and metadata stored in nodes. The library provides functions for graph traversing\nas well as for characteristic extraction from the graph topology."
         },
         {
-            "name": "pear-pear.php.net/Text_CAPTCHA",
-            "version": "0.4.5",
-            "dist": {
-                "type": "file",
-                "url": "http://pear.php.net/get/Text_CAPTCHA-0.4.5.tgz",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "pear-pear.php.net/text_password": "*",
-                "php": ">=4.0.0.0"
-            },
-            "replace": {
-                "pear-pear/text_captcha": "== 0.4.5.0"
-            },
-            "type": "pear-library",
-            "autoload": {
-                "classmap": [
-                    ""
-                ]
-            },
-            "include-path": [
-                "/"
-            ],
-            "description": "Implementation of CAPTCHAs (completely automated public Turing test to tell computers and humans apart)"
-        },
-        {
             "name": "pear-pear.php.net/Text_Diff",
             "version": "1.1.1",
             "dist": {
@@ -597,32 +619,6 @@
                 "/"
             ],
             "description": "This package provides a text-based diff engine and renderers for multiple diff output formats."
-        },
-        {
-            "name": "pear-pear.php.net/Text_Password",
-            "version": "1.1.1",
-            "dist": {
-                "type": "file",
-                "url": "http://pear.php.net/get/Text_Password-1.1.1.tgz",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "php": ">=4.2.0.0"
-            },
-            "replace": {
-                "pear-pear/text_password": "== 1.1.1.0"
-            },
-            "type": "pear-library",
-            "autoload": {
-                "classmap": [
-                    ""
-                ]
-            },
-            "include-path": [
-                "/"
-            ],
-            "description": "Text_Password allows one to create pronounceable and unpronounceable\npasswords. The full functional range is explained in the manual at\nhttp://pear.php.net/manual/."
         },
         {
             "name": "pear-pear.php.net/XML_RPC",
