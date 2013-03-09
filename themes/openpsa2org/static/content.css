@@ -1,7 +1,6 @@
-body
+#content
 {
-  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
-  font-size: 0.9em;
+    position: relative
 }
 
 #content a
@@ -14,24 +13,17 @@ body
   text-decoration: underline;
 }
 
-#content-text a
+#content h1,
+#content h2
 {
-  color: #132c5f;
-}
-
-#content-text a:visited
-{
-  color: #660000;
-}
-
-#content-text a
-{
-  font-weight: bold;
+    color: #222
 }
 
 #content h1
 {
-  font-size: 140%;
+    font-size: 170%;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
 }
 
 #content h2
@@ -41,10 +33,192 @@ body
 
 #content h3
 {
-  font-size: 100%;
+    font-size: 100%;
+    margin-bottom: 0;
+    margin-top: 1.5em;
 }
 
 #content div.breadcrumb
 {
   font-size: 80%;
+}
+
+#content-text
+{
+    float: left;
+    line-height: 1.4em;
+    width: 64%;
+    text-align: justify;
+    padding-left: 1.4em;
+    padding-bottom: 1em;
+}
+
+#content-text li
+{
+    list-style-type: square
+}
+
+#content-text a
+{
+    color: #030c6f;
+}
+
+#content-text a:visited
+{
+    color: #660000;
+}
+
+#content-text pre
+{
+    background-color: #555;
+    color: white;
+    padding: .1em .3em;
+    border-radius: .2em;
+    overflow: auto;
+}
+
+#content-text div.content p
+{
+    text-align: justify
+}
+
+#content-text div.content a
+{
+    font-weight: normal
+}
+
+#content-text .hentry
+{
+    margin: 0;
+    padding: .3em 0;
+    position: relative
+}
+
+#content-text .hentry div.published
+{
+    font-size: .75em
+}
+
+#content-text .hentry p.published
+{
+    position: absolute;
+    right: 0;
+    top: -1em;
+    color: #999;
+    font-size: .9em
+}
+
+#content-text .hentry h2.entry-title
+{
+    margin-top: 0;
+    margin-bottom: .2em
+}
+
+#content-text .hentry .excerpt
+{
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+#content-text .hentry .content
+{
+    padding-bottom: 2.5em;
+    border-bottom: 1px solid #ccc
+}
+
+#content-text .hentry div.meta
+{
+    font-size: .75em;
+    margin-bottom: 1.5em;
+}
+
+#content-text .hentry div.thumbnail
+{
+    float: left;
+    padding-top: 8px;
+    margin-right: .5em
+}
+
+#content-text .hentry p.entry-summary
+{
+    padding-top: 0;
+    margin: .5em 0
+}
+
+#content-text .hentry div.thumbnail img
+{
+    border: 1px solid #ccc;
+    width: 56px
+}
+
+#content-text .hentry a.comments
+{
+    font-weight: normal
+}
+
+
+#net_nehmer_comments label
+{
+    display: block;
+    margin-bottom: .3em
+}
+
+#net_nehmer_comments .field_text
+{
+    display: block;
+}
+
+.net_nehmer_comments_comment
+{
+    border: 1px solid #999;
+    border-radius: 3px;
+    margin-bottom: 5px
+}
+
+.net_nehmer_comments_comment .content
+{
+    padding: 3px 10px;
+}
+
+.net_nehmer_comments_comment .published
+{
+    padding: 0 5px;
+}
+
+.net_nehmer_comments_comment .content p
+{
+    margin: 5px 0;
+    font-size: .9em;
+    text-align: left
+}
+
+#content .net_nehmer_comments_comment h3
+{
+    margin: 0;
+    background-color: #ccc;
+    color: white;
+    padding: 1px 5px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+}
+
+body.screenshots #content-text
+{
+    width: 100%;
+}
+
+body.screenshots #slideshow_container .galleria-container
+{
+    margin: 0 auto;
+}
+
+body #content-navigation ul.tickets
+{
+    max-height: 20em;
+    overflow: auto;
+}
+
+body #content-navigation ul.tickets li
+{
+    padding-bottom: .5em;
+    clear: both;
 }

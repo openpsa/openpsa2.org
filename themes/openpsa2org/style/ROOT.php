@@ -8,7 +8,7 @@ if ($nap->get_current_node() === $nap->get_root_node())
 else
 {
     $node = $nap->get_node($nap->get_current_node());
-    $body_class = $node[MIDCOM_NAV_NAME];
+    $body_class = array_shift(explode('/', $node[MIDCOM_NAV_RELATIVEURL]));
 }
 $head = midcom::get('head');
 ?>
