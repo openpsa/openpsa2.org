@@ -96,12 +96,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/openpsa.git",
-                "reference": "ef277a5b0b54f25bd91297ebaf38a326940b1bea"
+                "reference": "ae12f4fabb6543136b614a9df0bf5d0f0d62b808"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/openpsa/zipball/ef277a5b0b54f25bd91297ebaf38a326940b1bea",
-                "reference": "ef277a5b0b54f25bd91297ebaf38a326940b1bea",
+                "url": "https://api.github.com/repos/flack/openpsa/zipball/ae12f4fabb6543136b614a9df0bf5d0f0d62b808",
+                "reference": "ae12f4fabb6543136b614a9df0bf5d0f0d62b808",
                 "shasum": ""
             },
             "require": {
@@ -162,7 +162,7 @@
                 "source": "https://github.com/flack/openpsa/tree/master",
                 "issues": "https://github.com/flack/openpsa/issues"
             },
-            "time": "2013-03-09 13:43:49"
+            "time": "2013-03-09 15:33:46"
         },
         {
             "name": "pear-htmlpurifier.org/HTMLPurifier",
