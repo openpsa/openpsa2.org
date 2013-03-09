@@ -26,11 +26,11 @@ $head = midcom::get('head');
         midcom::get('toolbars')->show();
         ?>
         <div id="container">
+            <div class="corner top-left-corner">
+            </div>
+            <div class="corner top-right-corner">
+            </div>
             <div id="branding">
-                <div class="left-corner">
-                </div>
-                <div class="right-corner">
-                </div>
                 <div class="grouplogo">
                     <(grouplogo)>
                 </div>
@@ -50,13 +50,13 @@ $head = midcom::get('head');
 midcom::get('uimessages')->show();
 ?>
             <div id="siteinfo">
-                <div class="left-corner">
-                </div>
-                <div class="right-corner">
-                </div>
                 <div class="siteinfo">
                     <(siteinfo)>
                 </div>
+            </div>
+            <div class="corner bottom-left-corner">
+            </div>
+            <div class="corner bottom-right-corner">
             </div>
         </div>
         <br />&nbsp;<br/>
