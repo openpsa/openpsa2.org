@@ -1,5 +1,6 @@
 vendor
 web/midcom-static
+web/blobs
 installer
 composer.phar
 var
