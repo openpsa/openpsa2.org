@@ -4,31 +4,29 @@ body
   font-size: 0.9em;
 }
 
-#content a:link
+#content a
 {
-  color: #132c5f;
-}
-
-#content a:visited
-{
-  color: #660000;
-}
-
-#content a:link,
-#content a:visited
-{
-  text-decoration: none;
-}
-
-#content-text a:link,
-#content-text a:visited
-{
-  font-weight: bold;
+    text-decoration: none;
 }
 
 #content a:hover
 {
   text-decoration: underline;
+}
+
+#content-text a
+{
+  color: #132c5f;
+}
+
+#content-text a:visited
+{
+  color: #660000;
+}
+
+#content-text a
+{
+  font-weight: bold;
 }
 
 #content h1
