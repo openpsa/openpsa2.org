@@ -63,7 +63,7 @@
 #navigation li:hover,
 #navigation li a:hover
 {
-  background-color: #485d88;
+    background-color: #485d88;
 }
 
 #navigation > ul > li:first-child,
@@ -144,7 +144,7 @@
     right: 2em;
     width: 25%;
     max-width: 19em;
-    margin-top: 5em;
+    margin-top: 7em;
     background-color: white;
     border-bottom-left-radius: .4em;
     border-bottom-right-radius: .4em;
@@ -152,7 +152,12 @@
 
 #content-navigation a
 {
+    color: #333;
+}
+#content-navigation a:hover
+{
     color: #000000;
+    text-decoration: none
 }
 
 #content-navigation h3 a
@@ -170,7 +175,7 @@
 #content-navigation h3 a:hover
 {
     text-decoration: none;
-    background-color: #233C6F;
+    background-color: #485d88;
 }
 
 #content-navigation ul
@@ -195,7 +200,7 @@
 
 #content-navigation ul > li
 {
-    padding: 0 1em .3em 1em;
+    padding: 0 1em .6em 1em;
 }
 
 #content-navigation ul ul

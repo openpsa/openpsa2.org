@@ -5,7 +5,7 @@ body
     background-repeat: repeat-x;
     background-position: top left;
     background-color: #bbbbbb;
-    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-family: Helvetica Neue, Helvetica, FreeSans, Arial, sans-serif;
     font-size: 0.9em;
 }
 
@@ -173,11 +173,6 @@ body.frontpage #content > #content-navigation
 body.frontpage #content-navigation .hentry .entry-title
 {
     font-weight: bold;
-}
-
-body.frontpage #content-navigation .hentry .entry-title a
-{
-    color: #444 !important;
 }
 
 body.frontpage #frontpage-slideshow
