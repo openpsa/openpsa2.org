@@ -9,7 +9,6 @@ $head->add_stylesheet($themedir . 'style.css', 'screen');
 $head->add_stylesheet($themedir . 'navigation.css', 'screen');
 $head->add_stylesheet($themedir . 'content.css', 'screen');
 $head->add_stylesheet($themedir . 'print.css', 'print');
-$head->add_stylesheet('/css/style.css', 'screen');
 
 $head->enable_jquery();
 if (midcom_connection::get('uri') == '/')
