@@ -96,17 +96,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/openpsa.git",
-                "reference": "b564b133bb6b8c7debe01b2fda2c62a968931d1e"
+                "reference": "4a9589e99c2a1a3485ae55274179c4566c821c3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/openpsa/zipball/b564b133bb6b8c7debe01b2fda2c62a968931d1e",
-                "reference": "b564b133bb6b8c7debe01b2fda2c62a968931d1e",
+                "url": "https://api.github.com/repos/flack/openpsa/zipball/4a9589e99c2a1a3485ae55274179c4566c821c3f",
+                "reference": "4a9589e99c2a1a3485ae55274179c4566c821c3f",
                 "shasum": ""
             },
             "require": {
                 "gregwar/captcha": ">=1.0",
                 "midgard/midgardmvc-helper-urlize": "@dev",
+                "openpsa/universalfeedcreator": "dev-master",
                 "pear-hp/htmlpurifier": "*",
                 "pear-pear/auth_sasl": "*",
                 "pear-pear/contact_vcard_parse": "*",
@@ -161,7 +162,53 @@
                 "source": "https://github.com/flack/openpsa/tree/master",
                 "issues": "https://github.com/flack/openpsa/issues"
             },
-            "time": "2013-03-10 11:15:46"
+            "time": "2013-03-12 21:50:55"
+        },
+        {
+            "name": "openpsa/universalfeedcreator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flack/UniversalFeedCreator.git",
+                "reference": "1952afa97c070709254a9ddf4b7f42809aaa124c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flack/UniversalFeedCreator/zipball/1952afa97c070709254a9ddf4b7f42809aaa124c",
+                "reference": "1952afa97c070709254a9ddf4b7f42809aaa124c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Flack",
+                    "email": "flack@contentcontrol-berlin.de",
+                    "homepage": "http://www.contentcontrol-berlin.de/"
+                }
+            ],
+            "description": "RSS and Atom feed generator by Kai Blankenhorn",
+            "homepage": "http://midgard-project.org/midcom/",
+            "keywords": [
+                "atom",
+                "georss",
+                "gpx",
+                "opml",
+                "pie",
+                "rss"
+            ],
+            "time": "2013-03-12 21:50:00"
         },
         {
             "name": "pear-htmlpurifier.org/HTMLPurifier",
