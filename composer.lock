@@ -1,5 +1,5 @@
 {
-    "hash": "6c1e5701a75cecf1e1eaa9aaf9ba9e32",
+    "hash": "b11676ee1399eeeefeb0eeb1c4606540",
     "packages": [
         {
             "name": "gregwar/captcha",
@@ -96,12 +96,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/openpsa.git",
-                "reference": "4a9589e99c2a1a3485ae55274179c4566c821c3f"
+                "reference": "2ceebe8c5b9b6b524218b78a348b867274b89aa4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/openpsa/zipball/4a9589e99c2a1a3485ae55274179c4566c821c3f",
-                "reference": "4a9589e99c2a1a3485ae55274179c4566c821c3f",
+                "url": "https://api.github.com/repos/flack/openpsa/zipball/2ceebe8c5b9b6b524218b78a348b867274b89aa4",
+                "reference": "2ceebe8c5b9b6b524218b78a348b867274b89aa4",
                 "shasum": ""
             },
             "require": {
@@ -136,19 +136,20 @@
                     "openpsa": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "LGPL"
             ],
             "authors": [
                 {
-                    "name": "Andreas Flack",
-                    "email": "flack@contentcontrol-berlin.de",
-                    "homepage": "http://www.contentcontrol-berlin.de/"
-                },
-                {
                     "name": "Henri Bergius",
                     "email": "henri.bergius@iki.fi",
                     "homepage": "http://bergie.iki.fi/"
+                },
+                {
+                    "name": "Andreas Flack",
+                    "email": "flack@contentcontrol-berlin.de",
+                    "homepage": "http://www.contentcontrol-berlin.de/"
                 }
             ],
             "description": "Content-oriented Model-View-Controller library for PHP and the Midgard Content Repository",
@@ -158,11 +159,7 @@
                 "midgard",
                 "mvc"
             ],
-            "support": {
-                "source": "https://github.com/flack/openpsa/tree/master",
-                "issues": "https://github.com/flack/openpsa/issues"
-            },
-            "time": "2013-03-12 21:50:55"
+            "time": "2013-03-14 19:04:22"
         },
         {
             "name": "openpsa/universalfeedcreator",
@@ -170,12 +167,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/UniversalFeedCreator.git",
-                "reference": "1952afa97c070709254a9ddf4b7f42809aaa124c"
+                "reference": "049145f539342c9a3c691e3dea0985817fc773bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/UniversalFeedCreator/zipball/1952afa97c070709254a9ddf4b7f42809aaa124c",
-                "reference": "1952afa97c070709254a9ddf4b7f42809aaa124c",
+                "url": "https://api.github.com/repos/flack/UniversalFeedCreator/zipball/049145f539342c9a3c691e3dea0985817fc773bd",
+                "reference": "049145f539342c9a3c691e3dea0985817fc773bd",
                 "shasum": ""
             },
             "require": {
@@ -199,7 +196,6 @@
                 }
             ],
             "description": "RSS and Atom feed generator by Kai Blankenhorn",
-            "homepage": "http://midgard-project.org/midcom/",
             "keywords": [
                 "atom",
                 "georss",
@@ -208,7 +204,7 @@
                 "pie",
                 "rss"
             ],
-            "time": "2013-03-12 21:50:00"
+            "time": "2013-03-12 22:07:29"
         },
         {
             "name": "pear-htmlpurifier.org/HTMLPurifier",
