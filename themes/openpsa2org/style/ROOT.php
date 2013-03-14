@@ -8,7 +8,8 @@ if ($nap->get_current_node() === $nap->get_root_node())
 else
 {
     $node = $nap->get_node($nap->get_current_node());
-    $body_class = array_shift(explode('/', $node[MIDCOM_NAV_RELATIVEURL]));
+    $parts = explode('/', $node[MIDCOM_NAV_RELATIVEURL]);
+    $body_class = array_shift($parts);
 }
 $head = midcom::get('head');
 ?>
@@ -63,7 +64,7 @@ midcom::get('uimessages')->show();
         <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FOpenPSA%2F414191282872&amp;layout=standard&amp;show_faces=true&amp;width=300&amp;action=like&amp;colorscheme=light&amp;height=80"
 scrolling="no" frameborder="0" style="border:none; overflow:hidden;
 width:700px; height:30px;" allowTransparency="true"></iframe>
-        
+
         <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));

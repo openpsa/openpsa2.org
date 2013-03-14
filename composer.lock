@@ -96,12 +96,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/openpsa.git",
-                "reference": "2ceebe8c5b9b6b524218b78a348b867274b89aa4"
+                "reference": "357af475d81a5f155e6acaa9b4fe341e55f77cfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/openpsa/zipball/2ceebe8c5b9b6b524218b78a348b867274b89aa4",
-                "reference": "2ceebe8c5b9b6b524218b78a348b867274b89aa4",
+                "url": "https://api.github.com/repos/flack/openpsa/zipball/357af475d81a5f155e6acaa9b4fe341e55f77cfc",
+                "reference": "357af475d81a5f155e6acaa9b4fe341e55f77cfc",
                 "shasum": ""
             },
             "require": {
@@ -159,7 +159,7 @@
                 "midgard",
                 "mvc"
             ],
-            "time": "2013-03-14 19:04:22"
+            "time": "2013-03-14 20:28:45"
         },
         {
             "name": "openpsa/universalfeedcreator",
