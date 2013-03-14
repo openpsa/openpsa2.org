@@ -8,10 +8,6 @@
         {
             "type": "pear",
             "url": "htmlpurifier.org"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/flack/openpsa"
         }
     ],
     "minimum-stability": "dev",
@@ -31,8 +27,5 @@
     },
     "extra": {
         "midcom-static-dir": "midcom-static"
-    },
-    "autoload": {
-        "psr-0": { "": "src/" }
     }
 }
