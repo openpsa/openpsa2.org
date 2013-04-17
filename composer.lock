@@ -1,6 +1,54 @@
 {
-    "hash": "b11676ee1399eeeefeb0eeb1c4606540",
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "0667f5406a26ef75d0d7f8ef58c39f8d",
     "packages": [
+        {
+            "name": "ezyang/htmlpurifier",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ezyang/htmlpurifier.git",
+                "reference": "v4.5.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/v4.5.0",
+                "reference": "v4.5.0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "HTMLPurifier": "library/"
+                },
+                "files": [
+                    "library/HTMLPurifier.composer.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Edward Z. Yang",
+                    "email": "admin@htmlpurifier.org",
+                    "homepage": "http://ezyang.com"
+                }
+            ],
+            "description": "Standards compliant HTML filter written in PHP",
+            "homepage": "http://htmlpurifier.org/",
+            "keywords": [
+                "html"
+            ],
+            "time": "2013-02-18 00:04:08"
+        },
         {
             "name": "gregwar/captcha",
             "version": "dev-master",
@@ -8,12 +56,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Gregwar/Captcha.git",
-                "reference": "048a19cef4ce71722f19bacd32958796317271ae"
+                "reference": "v1.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Gregwar/Captcha/zipball/048a19cef4ce71722f19bacd32958796317271ae",
-                "reference": "048a19cef4ce71722f19bacd32958796317271ae",
+                "url": "https://api.github.com/repos/Gregwar/Captcha/zipball/v1.0.2",
+                "reference": "v1.0.2",
                 "shasum": ""
             },
             "require": {
@@ -48,7 +96,58 @@
                 "captcha",
                 "spam"
             ],
-            "time": "2013-01-21 16:28:52"
+            "time": "2013-03-17 15:52:31"
+        },
+        {
+            "name": "michelf/php-markdown",
+            "version": "dev-lib",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michelf/php-markdown.git",
+                "reference": "53f638871750d6cfc66daf61d0741d75df838aad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/53f638871750d6cfc66daf61d0741d75df838aad",
+                "reference": "53f638871750d6cfc66daf61d0741d75df838aad",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-lib": "1.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Michelf": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michel Fortin",
+                    "email": "michel.fortin@michelf.ca",
+                    "homepage": "http://michelf.ca/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "John Gruber",
+                    "homepage": "http://daringfireball.net/"
+                }
+            ],
+            "description": "PHP Markdown",
+            "homepage": "http://michelf.ca/projects/php-markdown/",
+            "keywords": [
+                "markdown"
+            ],
+            "time": "2013-04-13 19:18:58"
         },
         {
             "name": "midgard/midgardmvc-helper-urlize",
@@ -96,29 +195,31 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/openpsa.git",
-                "reference": "357af475d81a5f155e6acaa9b4fe341e55f77cfc"
+                "reference": "d72b0703767adee10f3f09c3dfbec1494866b842"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/openpsa/zipball/357af475d81a5f155e6acaa9b4fe341e55f77cfc",
-                "reference": "357af475d81a5f155e6acaa9b4fe341e55f77cfc",
+                "url": "https://api.github.com/repos/flack/openpsa/zipball/d72b0703767adee10f3f09c3dfbec1494866b842",
+                "reference": "d72b0703767adee10f3f09c3dfbec1494866b842",
                 "shasum": ""
             },
             "require": {
+                "ezyang/htmlpurifier": "*",
                 "gregwar/captcha": ">=1.0",
-                "midgard/midgardmvc-helper-urlize": "@dev",
+                "michelf/php-markdown": ">=1.3",
+                "midgard/midgardmvc-helper-urlize": ">=1.1",
+                "openpsa/quickform": "dev-master",
                 "openpsa/universalfeedcreator": "dev-master",
-                "pear-hp/htmlpurifier": "*",
                 "pear-pear/auth_sasl": "*",
-                "pear-pear/contact_vcard_parse": "*",
-                "pear-pear/html_quickform": "*",
                 "pear-pear/http_request2": "*",
                 "pear-pear/mail": "*",
                 "pear-pear/mail_mime": "*",
                 "pear-pear/net_smtp": "*",
                 "pear-pear/text_diff": "*",
                 "pear-pear/xml_rpc": "*",
-                "php": ">=5.3.0"
+                "php": ">=5.3.0",
+                "sabre/vobject": "2.0.*",
+                "simplepie/simplepie": "1.3.*"
             },
             "provide": {
                 "midgard/midcom": "*",
@@ -159,7 +260,48 @@
                 "midgard",
                 "mvc"
             ],
-            "time": "2013-03-14 20:28:45"
+            "time": "2013-04-17 15:03:13"
+        },
+        {
+            "name": "openpsa/quickform",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flack/quickform.git",
+                "reference": "efbb3f4e55868268ac96de58b6278d75da282b89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flack/quickform/zipball/efbb3f4e55868268ac96de58b6278d75da282b89",
+                "reference": "efbb3f4e55868268ac96de58b6278d75da282b89",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.1.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "PHP License 3.01"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Flack",
+                    "email": "flack@contentcontrol-berlin.de",
+                    "homepage": "http://www.contentcontrol-berlin.de/"
+                }
+            ],
+            "description": "PHP 5.4 compatible fork of HTML_QuickForm",
+            "keywords": [
+                "form",
+                "quickform"
+            ],
+            "time": "2013-04-17 14:46:03"
         },
         {
             "name": "openpsa/universalfeedcreator",
@@ -167,12 +309,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/UniversalFeedCreator.git",
-                "reference": "049145f539342c9a3c691e3dea0985817fc773bd"
+                "reference": "5356e314f162ecf5fc7c4a9f4a70daaf92a66a50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/UniversalFeedCreator/zipball/049145f539342c9a3c691e3dea0985817fc773bd",
-                "reference": "049145f539342c9a3c691e3dea0985817fc773bd",
+                "url": "https://api.github.com/repos/flack/UniversalFeedCreator/zipball/5356e314f162ecf5fc7c4a9f4a70daaf92a66a50",
+                "reference": "5356e314f162ecf5fc7c4a9f4a70daaf92a66a50",
                 "shasum": ""
             },
             "require": {
@@ -204,33 +346,7 @@
                 "pie",
                 "rss"
             ],
-            "time": "2013-03-12 22:07:29"
-        },
-        {
-            "name": "pear-htmlpurifier.org/HTMLPurifier",
-            "version": "4.4.0",
-            "dist": {
-                "type": "file",
-                "url": "http://htmlpurifier.org/get/HTMLPurifier-4.4.0.tgz",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "php": ">=5.0.0.0"
-            },
-            "replace": {
-                "pear-hp/htmlpurifier": "== 4.4.0.0"
-            },
-            "type": "pear-library",
-            "autoload": {
-                "classmap": [
-                    ""
-                ]
-            },
-            "include-path": [
-                "/"
-            ],
-            "description": "HTML Purifier is an HTML filter that will remove all malicious code\n    (better known as XSS) with a thoroughly audited, secure yet permissive\n    whitelist and will also make sure your documents are standards\n    compliant."
+            "time": "2013-04-12 21:15:37"
         },
         {
             "name": "pear-pear.php.net/Archive_Tar",
@@ -309,85 +425,6 @@
                 "/"
             ],
             "description": "This is a PHP implementation of &quot;getopt&quot; supporting both\nshort and long options."
-        },
-        {
-            "name": "pear-pear.php.net/Contact_Vcard_Parse",
-            "version": "1.32.0",
-            "dist": {
-                "type": "file",
-                "url": "http://pear.php.net/get/Contact_Vcard_Parse-1.32.0.tgz",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "php": ">=4.0.0.0"
-            },
-            "replace": {
-                "pear-pear/contact_vcard_parse": "== 1.32.0.0"
-            },
-            "type": "pear-library",
-            "autoload": {
-                "classmap": [
-                    ""
-                ]
-            },
-            "include-path": [
-                "/"
-            ],
-            "description": "Allows you to parse vCard files and text blocks,\n  and get back an array of the elements of each vCard in the file or text.\n\n  Users of Contact_Vcard_Parse are encourage to check out File_IMC."
-        },
-        {
-            "name": "pear-pear.php.net/HTML_Common",
-            "version": "1.2.5",
-            "dist": {
-                "type": "file",
-                "url": "http://pear.php.net/get/HTML_Common-1.2.5.tgz",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "php": ">=4.0.4.0"
-            },
-            "replace": {
-                "pear-pear/html_common": "== 1.2.5.0"
-            },
-            "type": "pear-library",
-            "autoload": {
-                "classmap": [
-                    ""
-                ]
-            },
-            "include-path": [
-                "/"
-            ],
-            "description": "The PEAR::HTML_Common package provides methods for html code display and attributes handling.\n* Methods to set, remove, update html attributes.\n* Handles comments in HTML code.\n* Handles layout, tabs, line endings for nicer HTML code."
-        },
-        {
-            "name": "pear-pear.php.net/HTML_QuickForm",
-            "version": "3.2.13",
-            "dist": {
-                "type": "file",
-                "url": "http://pear.php.net/get/HTML_QuickForm-3.2.13.tgz",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "pear-pear.php.net/html_common": ">=1.2.1.0",
-                "php": ">=4.3.0.0"
-            },
-            "replace": {
-                "pear-pear/html_quickform": "== 3.2.13.0"
-            },
-            "type": "pear-library",
-            "autoload": {
-                "classmap": [
-                    ""
-                ]
-            },
-            "include-path": [
-                "/"
-            ],
-            "description": "NOTICE: development of HTML_QuickForm version 3 is frozen. Please submit\nfeature requests for HTML_QuickForm2 package.\n\nThe HTML_QuickForm package provides methods to dynamically create, validate\nand render HTML forms.\n\nFeatures:\n* More than 20 ready-to-use form elements.\n* XHTML compliant generated code.\n* Numerous mixable and extendable validation rules.\n* Automatic server-side validation and filtering.\n* On request javascript code generation for client-side validation.\n* File uploads support.\n* Total customization of form rendering.\n* Support for external template engines (ITX, Sigma, Flexy, Smarty).\n* Pluggable elements, rules and renderers extensions."
         },
         {
             "name": "pear-pear.php.net/HTTP_Request2",
@@ -689,6 +726,107 @@
                 "/"
             ],
             "description": "Selection of methods that are often needed when working with XML documents.  Functionality includes creating of attribute lists from arrays, creation of tags, validation of XML names and more."
+        },
+        {
+            "name": "sabre/vobject",
+            "version": "2.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/evert/sabre-vobject.git",
+                "reference": "2.0.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/evert/sabre-vobject/zipball/2.0.7",
+                "reference": "2.0.7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.1"
+            },
+            "bin": [
+                "bin/vobjectvalidate.php"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Sabre\\VObject": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Evert Pot",
+                    "email": "evert@rooftopsolutions.nl",
+                    "homepage": "http://www.rooftopsolutions.nl/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The VObject library for PHP allows you to easily parse and manipulate iCalendar and vCard objects",
+            "homepage": "https://github.com/evert/sabre-vobject",
+            "keywords": [
+                "VObject",
+                "iCalendar",
+                "vCard"
+            ],
+            "time": "2013-03-05 12:16:55"
+        },
+        {
+            "name": "simplepie/simplepie",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/simplepie/simplepie.git",
+                "reference": "1.3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/simplepie/simplepie/zipball/1.3.1",
+                "reference": "1.3.1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SimplePie": "library"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan Parman",
+                    "homepage": "http://ryanparman.com/",
+                    "role": "Creator, alumnus developer"
+                },
+                {
+                    "name": "Geoffrey Sneddon",
+                    "homepage": "http://gsnedders.com/",
+                    "role": "Alumnus developer"
+                },
+                {
+                    "name": "Ryan McCue",
+                    "email": "me@ryanmccue.info",
+                    "homepage": "http://ryanmccue.info/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple Atom/RSS parsing library for PHP",
+            "homepage": "http://simplepie.org/",
+            "keywords": [
+                "atom",
+                "feeds",
+                "rss"
+            ],
+            "time": "2012-10-30 10:54:03"
         }
     ],
     "packages-dev": [

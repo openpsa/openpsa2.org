@@ -4,10 +4,6 @@
         {
             "type": "pear",
             "url": "http://pear.php.net"
-        },
-        {
-            "type": "pear",
-            "url": "htmlpurifier.org"
         }
     ],
     "minimum-stability": "dev",
