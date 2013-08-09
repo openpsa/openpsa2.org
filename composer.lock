@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "0667f5406a26ef75d0d7f8ef58c39f8d",
+    "hash": "cfe1867a9ecdfc2f6214258ae6e205a5",
     "packages": [
         {
             "name": "ezyang/htmlpurifier",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezyang/htmlpurifier.git",
-                "reference": "v4.5.0"
+                "reference": "19eee1489965d9bc6eded80f847ced2382127261"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/v4.5.0",
-                "reference": "v4.5.0",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/19eee1489965d9bc6eded80f847ced2382127261",
+                "reference": "19eee1489965d9bc6eded80f847ced2382127261",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
             "keywords": [
                 "html"
             ],
-            "time": "2013-02-18 00:04:08"
+            "time": "2013-07-27 04:54:53"
         },
         {
             "name": "gregwar/captcha",
@@ -56,12 +56,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Gregwar/Captcha.git",
-                "reference": "v1.0.2"
+                "reference": "v1.0.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Gregwar/Captcha/zipball/v1.0.2",
-                "reference": "v1.0.2",
+                "url": "https://api.github.com/repos/Gregwar/Captcha/zipball/v1.0.7",
+                "reference": "v1.0.7",
                 "shasum": ""
             },
             "require": {
@@ -96,7 +96,7 @@
                 "captcha",
                 "spam"
             ],
-            "time": "2013-03-17 15:52:31"
+            "time": "2013-06-19 13:56:05"
         },
         {
             "name": "michelf/php-markdown",
@@ -104,12 +104,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/michelf/php-markdown.git",
-                "reference": "53f638871750d6cfc66daf61d0741d75df838aad"
+                "reference": "9dbd8352deac7d3a00ba9e2360b0d9f1c31b4b4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/53f638871750d6cfc66daf61d0741d75df838aad",
-                "reference": "53f638871750d6cfc66daf61d0741d75df838aad",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/9dbd8352deac7d3a00ba9e2360b0d9f1c31b4b4c",
+                "reference": "9dbd8352deac7d3a00ba9e2360b0d9f1c31b4b4c",
                 "shasum": ""
             },
             "require": {
@@ -147,7 +147,7 @@
             "keywords": [
                 "markdown"
             ],
-            "time": "2013-04-13 19:18:58"
+            "time": "2013-08-02 10:50:14"
         },
         {
             "name": "midgard/midgardmvc-helper-urlize",
@@ -190,17 +190,60 @@
             "time": "2013-01-07 10:56:18"
         },
         {
+            "name": "openpsa/installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flack/openpsa-installer.git",
+                "reference": "4713150a2ac4058f34032b27d38f13d52731a7d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flack/openpsa-installer/zipball/4713150a2ac4058f34032b27d38f13d52731a7d2",
+                "reference": "4713150a2ac4058f34032b27d38f13d52731a7d2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "composer/composer": "*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "openpsa\\installer\\installer"
+            },
+            "autoload": {
+                "psr-0": {
+                    "openpsa\\installer": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Flack",
+                    "email": "flack@contentcontrol-berlin.de",
+                    "homepage": "http://www.contentcontrol-berlin.de/"
+                }
+            ],
+            "description": "custom Composer installer for OpenPSA",
+            "time": "2013-08-08 19:30:48"
+        },
+        {
             "name": "openpsa/midcom",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/openpsa.git",
-                "reference": "d72b0703767adee10f3f09c3dfbec1494866b842"
+                "reference": "cb8badcbecf8b99bef49db63377b44520c71ff43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/openpsa/zipball/d72b0703767adee10f3f09c3dfbec1494866b842",
-                "reference": "d72b0703767adee10f3f09c3dfbec1494866b842",
+                "url": "https://api.github.com/repos/flack/openpsa/zipball/cb8badcbecf8b99bef49db63377b44520c71ff43",
+                "reference": "cb8badcbecf8b99bef49db63377b44520c71ff43",
                 "shasum": ""
             },
             "require": {
@@ -260,7 +303,7 @@
                 "midgard",
                 "mvc"
             ],
-            "time": "2013-04-17 15:03:13"
+            "time": "2013-08-08 10:36:34"
         },
         {
             "name": "openpsa/quickform",
@@ -268,12 +311,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/quickform.git",
-                "reference": "efbb3f4e55868268ac96de58b6278d75da282b89"
+                "reference": "e777a76da900bd66276ce4409a6d33bd2bdb6065"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/quickform/zipball/efbb3f4e55868268ac96de58b6278d75da282b89",
-                "reference": "efbb3f4e55868268ac96de58b6278d75da282b89",
+                "url": "https://api.github.com/repos/flack/quickform/zipball/e777a76da900bd66276ce4409a6d33bd2bdb6065",
+                "reference": "e777a76da900bd66276ce4409a6d33bd2bdb6065",
                 "shasum": ""
             },
             "require": {
@@ -301,7 +344,7 @@
                 "form",
                 "quickform"
             ],
-            "time": "2013-04-17 14:46:03"
+            "time": "2013-05-25 14:35:40"
         },
         {
             "name": "openpsa/universalfeedcreator",
@@ -309,12 +352,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/UniversalFeedCreator.git",
-                "reference": "5356e314f162ecf5fc7c4a9f4a70daaf92a66a50"
+                "reference": "v1.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/UniversalFeedCreator/zipball/5356e314f162ecf5fc7c4a9f4a70daaf92a66a50",
-                "reference": "5356e314f162ecf5fc7c4a9f4a70daaf92a66a50",
+                "url": "https://api.github.com/repos/flack/UniversalFeedCreator/zipball/v1.8.0",
+                "reference": "v1.8.0",
                 "shasum": ""
             },
             "require": {
@@ -346,7 +389,7 @@
                 "pie",
                 "rss"
             ],
-            "time": "2013-04-12 21:15:37"
+            "time": "2013-05-25 13:26:00"
         },
         {
             "name": "pear-pear.php.net/Archive_Tar",
@@ -482,10 +525,10 @@
         },
         {
             "name": "pear-pear.php.net/Mail_Mime",
-            "version": "1.8.7",
+            "version": "1.8.8",
             "dist": {
                 "type": "file",
-                "url": "http://pear.php.net/get/Mail_Mime-1.8.7.tgz",
+                "url": "http://pear.php.net/get/Mail_Mime-1.8.8.tgz",
                 "reference": null,
                 "shasum": null
             },
@@ -493,7 +536,7 @@
                 "php": ">=4.3.0.0"
             },
             "replace": {
-                "pear-pear/mail_mime": "== 1.8.7.0"
+                "pear-pear/mail_mime": "== 1.8.8.0"
             },
             "type": "pear-library",
             "autoload": {
@@ -508,10 +551,10 @@
         },
         {
             "name": "pear-pear.php.net/Net_SMTP",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "dist": {
                 "type": "file",
-                "url": "http://pear.php.net/get/Net_SMTP-1.6.1.tgz",
+                "url": "http://pear.php.net/get/Net_SMTP-1.6.2.tgz",
                 "reference": null,
                 "shasum": null
             },
@@ -520,7 +563,7 @@
                 "php": ">=4.0.5.0"
             },
             "replace": {
-                "pear-pear/net_smtp": "== 1.6.1.0"
+                "pear-pear/net_smtp": "== 1.6.2.0"
             },
             "type": "pear-library",
             "autoload": {
@@ -535,18 +578,18 @@
         },
         {
             "name": "pear-pear.php.net/Net_Socket",
-            "version": "1.0.10",
+            "version": "1.0.14",
             "dist": {
                 "type": "file",
-                "url": "http://pear.php.net/get/Net_Socket-1.0.10.tgz",
+                "url": "http://pear.php.net/get/Net_Socket-1.0.14.tgz",
                 "reference": null,
                 "shasum": null
             },
             "require": {
-                "php": ">=4.0.0.0"
+                "php": ">=4.3.0.0"
             },
             "replace": {
-                "pear-pear/net_socket": "== 1.0.10.0"
+                "pear-pear/net_socket": "== 1.0.14.0"
             },
             "type": "pear-library",
             "autoload": {
@@ -729,16 +772,16 @@
         },
         {
             "name": "sabre/vobject",
-            "version": "2.0.7",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/evert/sabre-vobject.git",
-                "reference": "2.0.7"
+                "url": "https://github.com/fruux/sabre-vobject.git",
+                "reference": "964d68178a6b6bd7fa668a4e21acf18d34d5e1f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/evert/sabre-vobject/zipball/2.0.7",
-                "reference": "2.0.7",
+                "url": "https://api.github.com/repos/fruux/sabre-vobject/zipball/964d68178a6b6bd7fa668a4e21acf18d34d5e1f5",
+                "reference": "964d68178a6b6bd7fa668a4e21acf18d34d5e1f5",
                 "shasum": ""
             },
             "require": {
@@ -761,18 +804,18 @@
                 {
                     "name": "Evert Pot",
                     "email": "evert@rooftopsolutions.nl",
-                    "homepage": "http://www.rooftopsolutions.nl/",
+                    "homepage": "http://evertpot.com/",
                     "role": "Developer"
                 }
             ],
             "description": "The VObject library for PHP allows you to easily parse and manipulate iCalendar and vCard objects",
-            "homepage": "https://github.com/evert/sabre-vobject",
+            "homepage": "https://github.com/fruux/sabre-vobject",
             "keywords": [
                 "VObject",
                 "iCalendar",
                 "vCard"
             ],
-            "time": "2013-03-05 12:16:55"
+            "time": "2013-05-08 19:11:55"
         },
         {
             "name": "simplepie/simplepie",
@@ -837,7 +880,8 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "openpsa/midcom": 20
+        "openpsa/midcom": 20,
+        "openpsa/installer": 20
     },
     "platform": [
 
