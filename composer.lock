@@ -3,8 +3,77 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "cfe1867a9ecdfc2f6214258ae6e205a5",
+    "hash": "bb1dd20fba8966eb9a334e1400699233",
     "packages": [
+        {
+            "name": "composer/composer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/composer.git",
+                "reference": "5088aa5fc5fafab22e1aa73bc504cfbd00651c3a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/composer/zipball/5088aa5fc5fafab22e1aa73bc504cfbd00651c3a",
+                "reference": "5088aa5fc5fafab22e1aa73bc504cfbd00651c3a",
+                "shasum": ""
+            },
+            "require": {
+                "justinrainbow/json-schema": "1.1.*",
+                "php": ">=5.3.2",
+                "seld/jsonlint": "1.*",
+                "symfony/console": "~2.3",
+                "symfony/finder": "~2.2",
+                "symfony/process": "~2.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7.10"
+            },
+            "suggest": {
+                "ext-openssl": "Enabling the openssl extension allows you to access https URLs for repositories and packages",
+                "ext-zip": "Enabling the zip extension allows you to unzip archives, and allows gzip compression of all internet traffic"
+            },
+            "bin": [
+                "bin/composer"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Nils Adermann",
+                    "email": "naderman@naderman.de",
+                    "homepage": "http://www.naderman.de"
+                }
+            ],
+            "description": "Dependency Manager",
+            "homepage": "http://getcomposer.org/",
+            "keywords": [
+                "autoload",
+                "dependency",
+                "package"
+            ],
+            "time": "2013-08-14 13:46:19"
+        },
         {
             "name": "ezyang/htmlpurifier",
             "version": "dev-master",
@@ -56,12 +125,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Gregwar/Captcha.git",
-                "reference": "v1.0.7"
+                "reference": "v1.0.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Gregwar/Captcha/zipball/v1.0.7",
-                "reference": "v1.0.7",
+                "url": "https://api.github.com/repos/Gregwar/Captcha/zipball/v1.0.8",
+                "reference": "v1.0.8",
                 "shasum": ""
             },
             "require": {
@@ -96,7 +165,62 @@
                 "captcha",
                 "spam"
             ],
-            "time": "2013-06-19 13:56:05"
+            "time": "2013-08-14 07:42:54"
+        },
+        {
+            "name": "justinrainbow/json-schema",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/justinrainbow/json-schema.git",
+                "reference": "v1.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/justinrainbow/json-schema/archive/v1.1.0.zip",
+                "reference": "v1.1.0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JsonSchema": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "NewBSD"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch",
+                    "homepage": "http://wiedler.ch/igor/"
+                },
+                {
+                    "name": "Bruno Prieto Reis",
+                    "email": "bruno.p.reis@gmail.com"
+                },
+                {
+                    "name": "Justin Rainbow",
+                    "email": "justin.rainbow@gmail.com"
+                },
+                {
+                    "name": "Robert Schönthal",
+                    "email": "seroscho@googlemail.com",
+                    "homepage": "http://digitalkaoz.net"
+                }
+            ],
+            "description": "A library to validate a json schema.",
+            "homepage": "https://github.com/justinrainbow/json-schema",
+            "keywords": [
+                "json",
+                "schema"
+            ],
+            "time": "2012-01-03 00:33:17"
         },
         {
             "name": "michelf/php-markdown",
@@ -195,19 +319,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/openpsa-installer.git",
-                "reference": "4713150a2ac4058f34032b27d38f13d52731a7d2"
+                "reference": "eed1a8e173da5e690b12a25bd37fce85386025c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/openpsa-installer/zipball/4713150a2ac4058f34032b27d38f13d52731a7d2",
-                "reference": "4713150a2ac4058f34032b27d38f13d52731a7d2",
+                "url": "https://api.github.com/repos/flack/openpsa-installer/zipball/eed1a8e173da5e690b12a25bd37fce85386025c1",
+                "reference": "eed1a8e173da5e690b12a25bd37fce85386025c1",
                 "shasum": ""
             },
             "require": {
+                "composer/composer": "*",
                 "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "composer/composer": "*"
             },
             "type": "composer-installer",
             "extra": {
@@ -230,7 +352,7 @@
                 }
             ],
             "description": "custom Composer installer for OpenPSA",
-            "time": "2013-08-08 19:30:48"
+            "time": "2013-08-15 14:27:38"
         },
         {
             "name": "openpsa/midcom",
@@ -238,12 +360,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/openpsa.git",
-                "reference": "cb8badcbecf8b99bef49db63377b44520c71ff43"
+                "reference": "d7717f6be5509c55e52a8a842c6b50130b0f912e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/openpsa/zipball/cb8badcbecf8b99bef49db63377b44520c71ff43",
-                "reference": "cb8badcbecf8b99bef49db63377b44520c71ff43",
+                "url": "https://api.github.com/repos/flack/openpsa/zipball/d7717f6be5509c55e52a8a842c6b50130b0f912e",
+                "reference": "d7717f6be5509c55e52a8a842c6b50130b0f912e",
                 "shasum": ""
             },
             "require": {
@@ -251,6 +373,7 @@
                 "gregwar/captcha": ">=1.0",
                 "michelf/php-markdown": ">=1.3",
                 "midgard/midgardmvc-helper-urlize": ">=1.1",
+                "openpsa/installer": "dev-master",
                 "openpsa/quickform": "dev-master",
                 "openpsa/universalfeedcreator": "dev-master",
                 "pear-pear/auth_sasl": "*",
@@ -262,7 +385,8 @@
                 "pear-pear/xml_rpc": "*",
                 "php": ">=5.3.0",
                 "sabre/vobject": "2.0.*",
-                "simplepie/simplepie": "1.3.*"
+                "simplepie/simplepie": "1.3.*",
+                "symfony/console": "~2.3.0"
             },
             "provide": {
                 "midgard/midcom": "*",
@@ -271,7 +395,10 @@
             "suggest": {
                 "ext-midgard2": ">=10.05.5"
             },
-            "type": "library",
+            "bin": [
+                "bin/console"
+            ],
+            "type": "midcom-package",
             "autoload": {
                 "classmap": [
                     "lib"
@@ -303,7 +430,7 @@
                 "midgard",
                 "mvc"
             ],
-            "time": "2013-08-08 10:36:34"
+            "time": "2013-08-16 10:23:31"
         },
         {
             "name": "openpsa/quickform",
@@ -818,6 +945,53 @@
             "time": "2013-05-08 19:11:55"
         },
         {
+            "name": "seld/jsonlint",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "http://github.com/Seldaek/jsonlint",
+                "reference": "1.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/1.1.1",
+                "reference": "1.1.1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "bin": [
+                "bin/jsonlint"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Seld\\JsonLint": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "JSON Linter",
+            "keywords": [
+                "json",
+                "linter",
+                "parser",
+                "validator"
+            ],
+            "time": "2013-02-11 23:03:12"
+        },
+        {
             "name": "simplepie/simplepie",
             "version": "1.3.1",
             "source": {
@@ -870,6 +1044,153 @@
                 "rss"
             ],
             "time": "2012-10-30 10:54:03"
+        },
+        {
+            "name": "symfony/console",
+            "version": "2.3.x-dev",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Console.git",
+                "reference": "v2.3.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/v2.3.3",
+                "reference": "v2.3.3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/event-dispatcher": "~2.1"
+            },
+            "suggest": {
+                "symfony/event-dispatcher": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-07-21 12:12:18"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/Finder",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Finder.git",
+                "reference": "16903d637cdce58c122b8b6e9b271170953d2996"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/16903d637cdce58c122b8b6e9b271170953d2996",
+                "reference": "16903d637cdce58c122b8b6e9b271170953d2996",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Finder\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Finder Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-08-14 13:08:25"
+        },
+        {
+            "name": "symfony/process",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/Process",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Process.git",
+                "reference": "a5f3e6456af26ca5406ab970afe4155648443c8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/a5f3e6456af26ca5406ab970afe4155648443c8b",
+                "reference": "a5f3e6456af26ca5406ab970afe4155648443c8b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Process\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-08-15 17:09:02"
         }
     ],
     "packages-dev": [
