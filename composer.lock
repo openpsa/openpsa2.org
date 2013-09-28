@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "bb1dd20fba8966eb9a334e1400699233",
+    "hash": "9749829517e636a852db98bf6959a957",
     "packages": [
         {
             "name": "composer/composer",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "5088aa5fc5fafab22e1aa73bc504cfbd00651c3a"
+                "reference": "46e55541e73256b8a5acb9dba4e1af6209dfdf53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/5088aa5fc5fafab22e1aa73bc504cfbd00651c3a",
-                "reference": "5088aa5fc5fafab22e1aa73bc504cfbd00651c3a",
+                "url": "https://api.github.com/repos/composer/composer/zipball/46e55541e73256b8a5acb9dba4e1af6209dfdf53",
+                "reference": "46e55541e73256b8a5acb9dba4e1af6209dfdf53",
                 "shasum": ""
             },
             "require": {
@@ -25,7 +25,7 @@
                 "seld/jsonlint": "1.*",
                 "symfony/console": "~2.3",
                 "symfony/finder": "~2.2",
-                "symfony/process": "~2.1"
+                "symfony/process": "~2.1@dev"
             },
             "require-dev": {
                 "phpunit/phpunit": "~3.7.10"
@@ -72,7 +72,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2013-08-14 13:46:19"
+            "time": "2013-09-26 13:51:49"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -80,12 +80,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezyang/htmlpurifier.git",
-                "reference": "19eee1489965d9bc6eded80f847ced2382127261"
+                "reference": "fac747bdbdba6aeaba4bed91ef49b2378c1798e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/19eee1489965d9bc6eded80f847ced2382127261",
-                "reference": "19eee1489965d9bc6eded80f847ced2382127261",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/fac747bdbdba6aeaba4bed91ef49b2378c1798e4",
+                "reference": "fac747bdbdba6aeaba4bed91ef49b2378c1798e4",
                 "shasum": ""
             },
             "require": {
@@ -116,7 +116,7 @@
             "keywords": [
                 "html"
             ],
-            "time": "2013-07-27 04:54:53"
+            "time": "2013-08-18 02:27:26"
         },
         {
             "name": "gregwar/captcha",
@@ -125,12 +125,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Gregwar/Captcha.git",
-                "reference": "v1.0.8"
+                "reference": "88bbf9e206957c7870995aabaf8c90afc090c082"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Gregwar/Captcha/zipball/v1.0.8",
-                "reference": "v1.0.8",
+                "url": "https://api.github.com/repos/Gregwar/Captcha/zipball/88bbf9e206957c7870995aabaf8c90afc090c082",
+                "reference": "88bbf9e206957c7870995aabaf8c90afc090c082",
                 "shasum": ""
             },
             "require": {
@@ -279,12 +279,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bergie/midgardmvc_helper_urlize.git",
-                "reference": "1.1.1"
+                "reference": "e86c9fb50f550e61dc133115dc28218b6e89f40b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bergie/midgardmvc_helper_urlize/zipball/1.1.1",
-                "reference": "1.1.1",
+                "url": "https://api.github.com/repos/bergie/midgardmvc_helper_urlize/zipball/e86c9fb50f550e61dc133115dc28218b6e89f40b",
+                "reference": "e86c9fb50f550e61dc133115dc28218b6e89f40b",
                 "shasum": ""
             },
             "require": {
@@ -319,18 +319,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/openpsa-installer.git",
-                "reference": "eed1a8e173da5e690b12a25bd37fce85386025c1"
+                "reference": "4ca8b0e746867037d8aecd7a82662904b6059e79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/openpsa-installer/zipball/eed1a8e173da5e690b12a25bd37fce85386025c1",
-                "reference": "eed1a8e173da5e690b12a25bd37fce85386025c1",
+                "url": "https://api.github.com/repos/flack/openpsa-installer/zipball/4ca8b0e746867037d8aecd7a82662904b6059e79",
+                "reference": "4ca8b0e746867037d8aecd7a82662904b6059e79",
                 "shasum": ""
             },
             "require": {
                 "composer/composer": "*",
-                "php": ">=5.3.0"
+                "php": ">=5.3.0",
+                "symfony/console": "~2.3.0"
             },
+            "bin": [
+                "bin/openpsa-installer"
+            ],
             "type": "composer-installer",
             "extra": {
                 "class": "openpsa\\installer\\installer"
@@ -352,7 +356,7 @@
                 }
             ],
             "description": "custom Composer installer for OpenPSA",
-            "time": "2013-08-15 14:27:38"
+            "time": "2013-09-28 10:46:59"
         },
         {
             "name": "openpsa/midcom",
@@ -360,15 +364,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/openpsa.git",
-                "reference": "d7717f6be5509c55e52a8a842c6b50130b0f912e"
+                "reference": "743009ad519cb9401ca4b2fead28642dae9555e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/openpsa/zipball/d7717f6be5509c55e52a8a842c6b50130b0f912e",
-                "reference": "d7717f6be5509c55e52a8a842c6b50130b0f912e",
+                "url": "https://api.github.com/repos/flack/openpsa/zipball/743009ad519cb9401ca4b2fead28642dae9555e0",
+                "reference": "743009ad519cb9401ca4b2fead28642dae9555e0",
                 "shasum": ""
             },
             "require": {
+                "ext-iconv": "*",
+                "ext-mbstring": "*",
                 "ezyang/htmlpurifier": "*",
                 "gregwar/captcha": ">=1.0",
                 "michelf/php-markdown": ">=1.3",
@@ -376,17 +382,15 @@
                 "openpsa/installer": "dev-master",
                 "openpsa/quickform": "dev-master",
                 "openpsa/universalfeedcreator": "dev-master",
-                "pear-pear/auth_sasl": "*",
                 "pear-pear/http_request2": "*",
-                "pear-pear/mail": "*",
-                "pear-pear/mail_mime": "*",
-                "pear-pear/net_smtp": "*",
                 "pear-pear/text_diff": "*",
                 "pear-pear/xml_rpc": "*",
                 "php": ">=5.3.0",
                 "sabre/vobject": "2.0.*",
                 "simplepie/simplepie": "1.3.*",
-                "symfony/console": "~2.3.0"
+                "swiftmailer/swiftmailer": "~5.0.0@stable",
+                "symfony/console": "~2.3.0@stable",
+                "symfony/event-dispatcher": "~2.3.0@stable"
             },
             "provide": {
                 "midgard/midcom": "*",
@@ -396,7 +400,7 @@
                 "ext-midgard2": ">=10.05.5"
             },
             "bin": [
-                "bin/console"
+                "bin/openpsa"
             ],
             "type": "midcom-package",
             "autoload": {
@@ -404,7 +408,8 @@
                     "lib"
                 ],
                 "psr-0": {
-                    "openpsa": "src/"
+                    "openpsa": "src/",
+                    "midcom": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -430,7 +435,7 @@
                 "midgard",
                 "mvc"
             ],
-            "time": "2013-08-16 10:23:31"
+            "time": "2013-09-28 11:45:38"
         },
         {
             "name": "openpsa/quickform",
@@ -438,12 +443,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/quickform.git",
-                "reference": "e777a76da900bd66276ce4409a6d33bd2bdb6065"
+                "reference": "e8d02f6d739b7d67ead5a4ddb863cd9d55398ef5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/quickform/zipball/e777a76da900bd66276ce4409a6d33bd2bdb6065",
-                "reference": "e777a76da900bd66276ce4409a6d33bd2bdb6065",
+                "url": "https://api.github.com/repos/flack/quickform/zipball/e8d02f6d739b7d67ead5a4ddb863cd9d55398ef5",
+                "reference": "e8d02f6d739b7d67ead5a4ddb863cd9d55398ef5",
                 "shasum": ""
             },
             "require": {
@@ -471,7 +476,7 @@
                 "form",
                 "quickform"
             ],
-            "time": "2013-05-25 14:35:40"
+            "time": "2013-08-23 12:19:29"
         },
         {
             "name": "openpsa/universalfeedcreator",
@@ -479,12 +484,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/UniversalFeedCreator.git",
-                "reference": "v1.8.0"
+                "reference": "b58c51a1b2ac0f099363ee04fbf800184e7d1326"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/UniversalFeedCreator/zipball/v1.8.0",
-                "reference": "v1.8.0",
+                "url": "https://api.github.com/repos/flack/UniversalFeedCreator/zipball/b58c51a1b2ac0f099363ee04fbf800184e7d1326",
+                "reference": "b58c51a1b2ac0f099363ee04fbf800184e7d1326",
                 "shasum": ""
             },
             "require": {
@@ -516,7 +521,7 @@
                 "pie",
                 "rss"
             ],
-            "time": "2013-05-25 13:26:00"
+            "time": "2013-08-30 09:35:12"
         },
         {
             "name": "pear-pear.php.net/Archive_Tar",
@@ -543,32 +548,6 @@
                 "/"
             ],
             "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded."
-        },
-        {
-            "name": "pear-pear.php.net/Auth_SASL",
-            "version": "1.0.6",
-            "dist": {
-                "type": "file",
-                "url": "http://pear.php.net/get/Auth_SASL-1.0.6.tgz",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "php": ">=4.2.0.0"
-            },
-            "replace": {
-                "pear-pear/auth_sasl": "== 1.0.6.0"
-            },
-            "type": "pear-library",
-            "autoload": {
-                "classmap": [
-                    ""
-                ]
-            },
-            "include-path": [
-                "/"
-            ],
-            "description": "Provides code to generate responses to common SASL mechanisms, including:\n- Digest-MD5\n- Cram-MD5\n- Plain\n- Anonymous\n- Login (Pseudo mechanism)\n- SCRAM"
         },
         {
             "name": "pear-pear.php.net/Console_Getopt",
@@ -623,111 +602,6 @@
                 "/"
             ],
             "description": "PHP5 rewrite of HTTP_Request package (with parts of HTTP_Client). Provides\ncleaner API and pluggable Adapters:\n  * Socket adapter, based on old HTTP_Request code,\n  * Curl adapter, wraps around PHP's cURL extension,\n  * Mock adapter, to use for testing packages dependent on HTTP_Request2.\nSupports POST requests with data and file uploads, basic and digest\nauthentication, cookies, managing cookies across requests, proxies, gzip and\ndeflate encodings, redirects, monitoring the request progress with Observers..."
-        },
-        {
-            "name": "pear-pear.php.net/Mail",
-            "version": "1.2.0",
-            "dist": {
-                "type": "file",
-                "url": "http://pear.php.net/get/Mail-1.2.0.tgz",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "php": ">=4.4.9.0"
-            },
-            "replace": {
-                "pear-pear/mail": "== 1.2.0.0"
-            },
-            "type": "pear-library",
-            "autoload": {
-                "classmap": [
-                    ""
-                ]
-            },
-            "include-path": [
-                "/"
-            ],
-            "description": "PEAR's Mail package defines an interface for implementing mailers under the PEAR hierarchy.  It also provides supporting functions useful to multiple mailer backends.  Currently supported backends include: PHP's native mail() function, sendmail, and SMTP.  This package also provides a RFC822 email address list validation utility class."
-        },
-        {
-            "name": "pear-pear.php.net/Mail_Mime",
-            "version": "1.8.8",
-            "dist": {
-                "type": "file",
-                "url": "http://pear.php.net/get/Mail_Mime-1.8.8.tgz",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "php": ">=4.3.0.0"
-            },
-            "replace": {
-                "pear-pear/mail_mime": "== 1.8.8.0"
-            },
-            "type": "pear-library",
-            "autoload": {
-                "classmap": [
-                    ""
-                ]
-            },
-            "include-path": [
-                "/"
-            ],
-            "description": "Mail_Mime provides classes to deal with the creation and manipulation of MIME messages.\nIt allows people to create e-mail messages consisting of:\n* Text Parts\n* HTML Parts\n* Inline HTML Images\n* Attachments\n* Attached messages\n\nIt supports big messages, base64 and quoted-printable encodings and\nnon-ASCII characters in filenames, subjects, recipients, etc. encoded\nusing RFC2047 and/or RFC2231."
-        },
-        {
-            "name": "pear-pear.php.net/Net_SMTP",
-            "version": "1.6.2",
-            "dist": {
-                "type": "file",
-                "url": "http://pear.php.net/get/Net_SMTP-1.6.2.tgz",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "pear-pear.php.net/net_socket": ">=1.0.7.0",
-                "php": ">=4.0.5.0"
-            },
-            "replace": {
-                "pear-pear/net_smtp": "== 1.6.2.0"
-            },
-            "type": "pear-library",
-            "autoload": {
-                "classmap": [
-                    ""
-                ]
-            },
-            "include-path": [
-                "/"
-            ],
-            "description": "Provides an implementation of the SMTP protocol using PEAR's Net_Socket class."
-        },
-        {
-            "name": "pear-pear.php.net/Net_Socket",
-            "version": "1.0.14",
-            "dist": {
-                "type": "file",
-                "url": "http://pear.php.net/get/Net_Socket-1.0.14.tgz",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "php": ">=4.3.0.0"
-            },
-            "replace": {
-                "pear-pear/net_socket": "== 1.0.14.0"
-            },
-            "type": "pear-library",
-            "autoload": {
-                "classmap": [
-                    ""
-                ]
-            },
-            "include-path": [
-                "/"
-            ],
-            "description": "Net_Socket is a class interface to TCP sockets.  It provides blocking\n  and non-blocking operation, with different reading and writing modes\n  (byte-wise, block-wise, line-wise and special formats like network\n  byte-order ip addresses)."
         },
         {
             "name": "pear-pear.php.net/Net_URL2",
@@ -1046,18 +920,67 @@
             "time": "2012-10-30 10:54:03"
         },
         {
+            "name": "swiftmailer/swiftmailer",
+            "version": "v5.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swiftmailer/swiftmailer.git",
+                "reference": "f3917ecef35a4e4d98b303eb9fee463bc983f379"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/f3917ecef35a4e4d98b303eb9fee463bc983f379",
+                "reference": "f3917ecef35a4e4d98b303eb9fee463bc983f379",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.1-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "lib/swift_required.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Chris Corbyn"
+                }
+            ],
+            "description": "Swiftmailer, free feature-rich PHP mailer",
+            "homepage": "http://swiftmailer.org",
+            "keywords": [
+                "mail",
+                "mailer"
+            ],
+            "time": "2013-08-30 12:35:21"
+        },
+        {
             "name": "symfony/console",
             "version": "2.3.x-dev",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "v2.3.3"
+                "reference": "f880062d56edefb25b36f2defa65aafe65959dc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/v2.3.3",
-                "reference": "v2.3.3",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/f880062d56edefb25b36f2defa65aafe65959dc7",
+                "reference": "f880062d56edefb25b36f2defa65aafe65959dc7",
                 "shasum": ""
             },
             "require": {
@@ -1096,7 +1019,61 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2013-07-21 12:12:18"
+            "time": "2013-09-25 06:04:15"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "version": "2.3.x-dev",
+            "target-dir": "Symfony/Component/EventDispatcher",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/EventDispatcher.git",
+                "reference": "7fc72a7a346a1887d3968cc1ce5642a15cd182e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/7fc72a7a346a1887d3968cc1ce5642a15cd182e9",
+                "reference": "7fc72a7a346a1887d3968cc1ce5642a15cd182e9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/dependency-injection": "~2.0"
+            },
+            "suggest": {
+                "symfony/dependency-injection": "",
+                "symfony/http-kernel": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\EventDispatcher\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony EventDispatcher Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-09-19 09:45:20"
         },
         {
             "name": "symfony/finder",
@@ -1105,12 +1082,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "16903d637cdce58c122b8b6e9b271170953d2996"
+                "reference": "e2ce3164ab58b4d54612e630571f158035ee8603"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/16903d637cdce58c122b8b6e9b271170953d2996",
-                "reference": "16903d637cdce58c122b8b6e9b271170953d2996",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/e2ce3164ab58b4d54612e630571f158035ee8603",
+                "reference": "e2ce3164ab58b4d54612e630571f158035ee8603",
                 "shasum": ""
             },
             "require": {
@@ -1143,7 +1120,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2013-08-14 13:08:25"
+            "time": "2013-09-19 09:47:34"
         },
         {
             "name": "symfony/process",
@@ -1152,12 +1129,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "a5f3e6456af26ca5406ab970afe4155648443c8b"
+                "reference": "4adfa47d187f90638261566ba0a0ab1c1291b9bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/a5f3e6456af26ca5406ab970afe4155648443c8b",
-                "reference": "a5f3e6456af26ca5406ab970afe4155648443c8b",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/4adfa47d187f90638261566ba0a0ab1c1291b9bd",
+                "reference": "4adfa47d187f90638261566ba0a0ab1c1291b9bd",
                 "shasum": ""
             },
             "require": {
@@ -1190,7 +1167,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
-            "time": "2013-08-15 17:09:02"
+            "time": "2013-09-27 14:31:42"
         }
     ],
     "packages-dev": [
