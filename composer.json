@@ -9,7 +9,8 @@
     "minimum-stability": "dev",
     "require": {
         "openpsa/midcom": "dev-master",
-        "openpsa/installer": "dev-master"
+        "openpsa/installer": "dev-master",
+        "openpsa/midcom-console": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [
