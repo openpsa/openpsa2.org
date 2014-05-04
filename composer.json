@@ -1,17 +1,12 @@
 {
     "name": "openpsa/openpsa2.org",
-    "repositories": [
-        {
-            "type": "pear",
-            "url": "http://pear.php.net"
-        }
-    ],
     "minimum-stability": "dev",
     "require": {
         "openpsa/midcom": "dev-master",
         "openpsa/installer": "dev-master",
         "openpsa/midcom-console": "dev-master"
     },
+    "prefer-stable": true,
     "scripts": {
         "post-install-cmd": [
             "openpsa\\installer\\installer::setup_root_package"
