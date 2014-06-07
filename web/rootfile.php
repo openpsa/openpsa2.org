@@ -3,23 +3,22 @@ date_default_timezone_set('UTC');
 $basedir = dirname(__DIR__) . '/';
 require $basedir . 'vendor/autoload.php';
 
+midcom_connection::setup($basedir);
 define('OPENPSA2_THEME_ROOT', $basedir . 'themes/');
 define('MIDCOM_ROOT', $basedir . 'vendor/openpsa/midcom/lib');
 define('OPENPSA2_PREFIX', '/');
 
 header('Content-Type: text/html; charset=utf-8');
 
-$GLOBALS['midcom_config_local'] = array();
-if (extension_loaded('midgard2'))
-{
-    $GLOBALS['midcom_config_local']['person_class'] = 'openpsa_person';
-    $GLOBALS['midcom_config_local']['auth_type'] = 'Legacy';
-}
-$GLOBALS['midcom_config_local']['midcom_config_basedir'] = $basedir . 'config';
-$GLOBALS['midcom_config_local']['log_filename'] = $basedir . 'var/log/midcom.log';
-$GLOBALS['midcom_config_local']['cache_base_directory'] = $basedir . "var/cache/midcom/";
-$GLOBALS['midcom_config_local']['midcom_services_rcs_root'] = $basedir . "var/rcs";
-
+$GLOBALS['midcom_config_local'] = array
+(
+    'person_class' => 'openpsa_person',
+    'auth_type' => 'Legacy',
+    'midcom_config_basedir' => $basedir . 'config',
+    'log_filename' => $basedir . 'var/log/midcom.log',
+    'cache_base_directory' => $basedir . 'var/cache/midcom/',
+    'midcom_services_rcs_root' => $basedir . 'var/rcs'
+);
 if (!file_exists($basedir . 'config.inc.php'))
 {
     die('config missing');

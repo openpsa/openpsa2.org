@@ -4,7 +4,8 @@
     "require": {
         "openpsa/midcom": "dev-master",
         "openpsa/installer": "dev-master",
-        "openpsa/midcom-console": "dev-master"
+        "openpsa/midcom-console": "dev-master",
+        "openpsa/midgard-portable": "dev-master"
     },
     "prefer-stable": true,
     "scripts": {
