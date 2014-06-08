@@ -1035,12 +1035,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/openpsa.git",
-                "reference": "35e3f83ad4e751d930f7e6fd7afa52ac047be38f"
+                "reference": "63f765eaf8bb6544ae1a92090eb64c1f3e5a2e08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/openpsa/zipball/35e3f83ad4e751d930f7e6fd7afa52ac047be38f",
-                "reference": "35e3f83ad4e751d930f7e6fd7afa52ac047be38f",
+                "url": "https://api.github.com/repos/flack/openpsa/zipball/63f765eaf8bb6544ae1a92090eb64c1f3e5a2e08",
+                "reference": "63f765eaf8bb6544ae1a92090eb64c1f3e5a2e08",
                 "shasum": ""
             },
             "require": {
@@ -1110,7 +1110,7 @@
                 "midgard",
                 "mvc"
             ],
-            "time": "2014-06-07 10:52:56"
+            "time": "2014-06-07 19:36:00"
         },
         {
             "name": "openpsa/midcom-console",
