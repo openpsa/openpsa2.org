@@ -78,16 +78,16 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "v1.1.2",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "40db0c96985aab2822edbc4848b3bd2429e02670"
+                "reference": "d9b1a37e9351ddde1f19f09a02e3d6ee92e82efd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/40db0c96985aab2822edbc4848b3bd2429e02670",
-                "reference": "40db0c96985aab2822edbc4848b3bd2429e02670",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/d9b1a37e9351ddde1f19f09a02e3d6ee92e82efd",
+                "reference": "d9b1a37e9351ddde1f19f09a02e3d6ee92e82efd",
                 "shasum": ""
             },
             "require": {
@@ -95,12 +95,13 @@
                 "php": ">=5.3.2"
             },
             "require-dev": {
-                "doctrine/cache": "1.*"
+                "doctrine/cache": "1.*",
+                "phpunit/phpunit": "4.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.3.x-dev"
                 }
             },
             "autoload": {
@@ -114,7 +115,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -135,7 +136,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -146,7 +147,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2013-06-16 21:33:03"
+            "time": "2014-07-06 15:52:21"
         },
         {
             "name": "doctrine/cache",
@@ -189,7 +190,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -210,7 +211,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -277,7 +278,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -353,7 +354,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -484,7 +485,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -538,7 +539,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -552,16 +553,16 @@
         },
         {
             "name": "doctrine/orm",
-            "version": "v2.4.2",
+            "version": "v2.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "0363a5548d9263f979f9ca149decb9cfc66419ab"
+                "reference": "fc19c3b53dcd00e6584db40669fdd699c4671f97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/0363a5548d9263f979f9ca149decb9cfc66419ab",
-                "reference": "0363a5548d9263f979f9ca149decb9cfc66419ab",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/fc19c3b53dcd00e6584db40669fdd699c4671f97",
+                "reference": "fc19c3b53dcd00e6584db40669fdd699c4671f97",
                 "shasum": ""
             },
             "require": {
@@ -624,7 +625,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2014-02-08 16:35:09"
+            "time": "2014-07-11 03:05:53"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -702,7 +703,7 @@
             ],
             "authors": [
                 {
-                    "name": "Gregwar",
+                    "name": "Grégoire Passault",
                     "email": "g.passault@gmail.com",
                     "homepage": "http://www.gregwar.com/"
                 },
@@ -725,13 +726,13 @@
             "version": "1.1.0",
             "source": {
                 "type": "git",
-                "url": "git://github.com/justinrainbow/json-schema.git",
-                "reference": "v1.1.0"
+                "url": "https://github.com/justinrainbow/json-schema.git",
+                "reference": "05ff6d8d79fe3ad190b0663d80d3f9deee79416c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/justinrainbow/json-schema/archive/v1.1.0.zip",
-                "reference": "v1.1.0",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/05ff6d8d79fe3ad190b0663d80d3f9deee79416c",
+                "reference": "05ff6d8d79fe3ad190b0663d80d3f9deee79416c",
                 "shasum": ""
             },
             "require": {
@@ -763,7 +764,7 @@
                 },
                 {
                     "name": "Robert Schönthal",
-                    "email": "seroscho@googlemail.com",
+                    "email": "robert.schoenthal@gmail.com",
                     "homepage": "http://digitalkaoz.net"
                 }
             ],
@@ -777,16 +778,16 @@
         },
         {
             "name": "kriswallsmith/buzz",
-            "version": "v0.10",
+            "version": "v0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kriswallsmith/Buzz.git",
-                "reference": "759432d66387e3433d3b06cb6f773b97225b9b17"
+                "reference": "9d56d36a58c47e2f612f4b856ff9baa0e3375ff6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kriswallsmith/Buzz/zipball/759432d66387e3433d3b06cb6f773b97225b9b17",
-                "reference": "759432d66387e3433d3b06cb6f773b97225b9b17",
+                "url": "https://api.github.com/repos/kriswallsmith/Buzz/zipball/9d56d36a58c47e2f612f4b856ff9baa0e3375ff6",
+                "reference": "9d56d36a58c47e2f612f4b856ff9baa0e3375ff6",
                 "shasum": ""
             },
             "require": {
@@ -821,7 +822,7 @@
                 "curl",
                 "http client"
             ],
-            "time": "2013-05-19 03:41:15"
+            "time": "2014-07-29 23:52:21"
         },
         {
             "name": "michelf/php-markdown",
@@ -988,12 +989,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/openpsa-installer.git",
-                "reference": "551cc4c7a1b1bb4a56de10baacdfc40691184ae1"
+                "reference": "c8d52ea801f29db3ce539d17b6423b5e95a7f5ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/openpsa-installer/zipball/551cc4c7a1b1bb4a56de10baacdfc40691184ae1",
-                "reference": "551cc4c7a1b1bb4a56de10baacdfc40691184ae1",
+                "url": "https://api.github.com/repos/flack/openpsa-installer/zipball/c8d52ea801f29db3ce539d17b6423b5e95a7f5ab",
+                "reference": "c8d52ea801f29db3ce539d17b6423b5e95a7f5ab",
                 "shasum": ""
             },
             "require": {
@@ -1011,8 +1012,8 @@
                 "class": "openpsa\\installer\\plugin"
             },
             "autoload": {
-                "psr-0": {
-                    "openpsa\\installer": "src/"
+                "psr-4": {
+                    "openpsa\\installer\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1027,7 +1028,7 @@
                 }
             ],
             "description": "Installer for OpenPSA components and projects",
-            "time": "2014-04-24 10:23:21"
+            "time": "2014-08-15 16:36:29"
         },
         {
             "name": "openpsa/midcom",
@@ -1035,12 +1036,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/openpsa.git",
-                "reference": "63f765eaf8bb6544ae1a92090eb64c1f3e5a2e08"
+                "reference": "6d4ab2a802cdf05ada4c5aef9b731370b3aec6b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/openpsa/zipball/63f765eaf8bb6544ae1a92090eb64c1f3e5a2e08",
-                "reference": "63f765eaf8bb6544ae1a92090eb64c1f3e5a2e08",
+                "url": "https://api.github.com/repos/flack/openpsa/zipball/6d4ab2a802cdf05ada4c5aef9b731370b3aec6b1",
+                "reference": "6d4ab2a802cdf05ada4c5aef9b731370b3aec6b1",
                 "shasum": ""
             },
             "require": {
@@ -1085,7 +1086,11 @@
                 "psr-0": {
                     "openpsa": "src/",
                     "midcom": "src/"
-                }
+                },
+                "files": [
+                    "lib/constants.php",
+                    "lib/compat/ragnaroek.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1110,7 +1115,7 @@
                 "midgard",
                 "mvc"
             ],
-            "time": "2014-06-07 19:36:00"
+            "time": "2014-08-15 16:13:19"
         },
         {
             "name": "openpsa/midcom-console",
@@ -1118,12 +1123,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/midcom-console.git",
-                "reference": "c82b589bcf00df06610ca726e448d579b5fbda4f"
+                "reference": "ce43898cd670755b3e40553138ae9f2cdebd85f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/midcom-console/zipball/c82b589bcf00df06610ca726e448d579b5fbda4f",
-                "reference": "c82b589bcf00df06610ca726e448d579b5fbda4f",
+                "url": "https://api.github.com/repos/flack/midcom-console/zipball/ce43898cd670755b3e40553138ae9f2cdebd85f9",
+                "reference": "ce43898cd670755b3e40553138ae9f2cdebd85f9",
                 "shasum": ""
             },
             "require": {
@@ -1135,8 +1140,8 @@
             ],
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "midcom": "src/"
+                "psr-4": {
+                    "midcom\\console\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1155,7 +1160,7 @@
                 "console",
                 "midcom"
             ],
-            "time": "2014-04-21 19:39:55"
+            "time": "2014-06-23 13:27:25"
         },
         {
             "name": "openpsa/midgard-introspection",
@@ -1163,12 +1168,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/midgard-introspection.git",
-                "reference": "7db664abc9c6d9a25323719edf6452c0594ad14e"
+                "reference": "1064472a5af9a7179119808848742d7c26740312"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/midgard-introspection/zipball/7db664abc9c6d9a25323719edf6452c0594ad14e",
-                "reference": "7db664abc9c6d9a25323719edf6452c0594ad14e",
+                "url": "https://api.github.com/repos/flack/midgard-introspection/zipball/1064472a5af9a7179119808848742d7c26740312",
+                "reference": "1064472a5af9a7179119808848742d7c26740312",
                 "shasum": ""
             },
             "require": {
@@ -1196,7 +1201,7 @@
                 "midgard",
                 "reflection"
             ],
-            "time": "2014-04-15 16:08:40"
+            "time": "2014-07-12 19:52:53"
         },
         {
             "name": "openpsa/midgard-portable",
@@ -1204,23 +1209,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/midgard-portable.git",
-                "reference": "325bc162ead5548ee1d83f746233c0d16a21b466"
+                "reference": "3b3803622eb208df952b20b33243d3dfcf87d564"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/midgard-portable/zipball/325bc162ead5548ee1d83f746233c0d16a21b466",
-                "reference": "325bc162ead5548ee1d83f746233c0d16a21b466",
+                "url": "https://api.github.com/repos/flack/midgard-portable/zipball/3b3803622eb208df952b20b33243d3dfcf87d564",
+                "reference": "3b3803622eb208df952b20b33243d3dfcf87d564",
                 "shasum": ""
             },
             "require": {
-                "doctrine/orm": "2.4.*",
+                "doctrine/orm": "~2.4.4",
                 "monolog/monolog": "~1.9.1",
-                "php": ">=5.3.0",
-                "symfony/console": "~2.3.0@stable"
+                "php": ">=5.3.0"
             },
-            "bin": [
-                "bin/midgard-portable"
-            ],
             "type": "library",
             "autoload": {
                 "classmap": [
@@ -1245,7 +1246,7 @@
                 }
             ],
             "description": "Pure PHP implementation of (parts of) the Midgard2 API",
-            "time": "2014-06-07 09:01:15"
+            "time": "2014-08-10 10:33:03"
         },
         {
             "name": "openpsa/quickform",
@@ -1253,12 +1254,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/quickform.git",
-                "reference": "df39b4a54b010b32ab6342fb5df20883b28f2421"
+                "reference": "12e3357c7bf211cc120f9f852945e957da084bb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/quickform/zipball/df39b4a54b010b32ab6342fb5df20883b28f2421",
-                "reference": "df39b4a54b010b32ab6342fb5df20883b28f2421",
+                "url": "https://api.github.com/repos/flack/quickform/zipball/12e3357c7bf211cc120f9f852945e957da084bb6",
+                "reference": "12e3357c7bf211cc120f9f852945e957da084bb6",
                 "shasum": ""
             },
             "require": {
@@ -1286,7 +1287,7 @@
                 "form",
                 "quickform"
             ],
-            "time": "2014-05-04 19:08:32"
+            "time": "2014-08-15 09:44:56"
         },
         {
             "name": "openpsa/universalfeedcreator",
@@ -1294,12 +1295,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/UniversalFeedCreator.git",
-                "reference": "f95e0a7d0e87e24352ce00b0698faee4e6c9baa9"
+                "reference": "84ae676afd49e5c5bf3f0657ce521cd421ef6bdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/UniversalFeedCreator/zipball/f95e0a7d0e87e24352ce00b0698faee4e6c9baa9",
-                "reference": "f95e0a7d0e87e24352ce00b0698faee4e6c9baa9",
+                "url": "https://api.github.com/repos/flack/UniversalFeedCreator/zipball/84ae676afd49e5c5bf3f0657ce521cd421ef6bdf",
+                "reference": "84ae676afd49e5c5bf3f0657ce521cd421ef6bdf",
                 "shasum": ""
             },
             "require": {
@@ -1331,7 +1332,7 @@
                 "pie",
                 "rss"
             ],
-            "time": "2013-11-10 09:00:22"
+            "time": "2014-08-04 12:34:50"
         },
         {
             "name": "phpspec/php-diff",
@@ -1360,7 +1361,8 @@
             "authors": [
                 {
                     "name": "Chris Boulton",
-                    "homepage": "http://github.com/chrisboulton"
+                    "homepage": "http://github.com/chrisboulton",
+                    "role": "Original developer"
                 }
             ],
             "description": "A comprehensive library for generating differences between two hashable objects (strings or arrays).",
@@ -1438,7 +1440,7 @@
                 {
                     "name": "Evert Pot",
                     "email": "evert@rooftopsolutions.nl",
-                    "homepage": "http://evertpot.com/",
+                    "homepage": "http://www.rooftopsolutions.nl/",
                     "role": "Developer"
                 }
             ],
@@ -1453,16 +1455,16 @@
         },
         {
             "name": "seld/jsonlint",
-            "version": "1.1.2",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "7cd4c4965e17e6e4c07f26d566619a4c76f8c672"
+                "reference": "9cae56dbe34f4392e7d0f559474df33749a39f8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/7cd4c4965e17e6e4c07f26d566619a4c76f8c672",
-                "reference": "7cd4c4965e17e6e4c07f26d566619a4c76f8c672",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/9cae56dbe34f4392e7d0f559474df33749a39f8d",
+                "reference": "9cae56dbe34f4392e7d0f559474df33749a39f8d",
                 "shasum": ""
             },
             "require": {
@@ -1473,8 +1475,8 @@
             ],
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Seld\\JsonLint": "src/"
+                "psr-4": {
+                    "Seld\\JsonLint\\": "src/Seld/JsonLint/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1485,8 +1487,7 @@
                 {
                     "name": "Jordi Boggiano",
                     "email": "j.boggiano@seld.be",
-                    "homepage": "http://seld.be",
-                    "role": "Developer"
+                    "homepage": "http://seld.be"
                 }
             ],
             "description": "JSON Linter",
@@ -1496,7 +1497,7 @@
                 "parser",
                 "validator"
             ],
-            "time": "2013-11-04 15:41:11"
+            "time": "2014-07-20 17:36:11"
         },
         {
             "name": "simplepie/simplepie",
@@ -1504,12 +1505,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/simplepie/simplepie.git",
-                "reference": "1.3.1"
+                "reference": "ce53709778bc1e2e4deda1651b66e5081398d5cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/simplepie/simplepie/zipball/1.3.1",
-                "reference": "1.3.1",
+                "url": "https://api.github.com/repos/simplepie/simplepie/zipball/ce53709778bc1e2e4deda1651b66e5081398d5cc",
+                "reference": "ce53709778bc1e2e4deda1651b66e5081398d5cc",
                 "shasum": ""
             },
             "require": {
@@ -1550,7 +1551,7 @@
                 "feeds",
                 "rss"
             ],
-            "time": "2012-10-30 10:54:03"
+            "time": "2012-10-30 17:54:03"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -1587,7 +1588,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Chris Corbyn"
@@ -1603,17 +1606,17 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.3.16",
+            "version": "v2.3.18",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "c6c5a354a9945a5e9a9a6a495ca19558eb8639e9"
+                "reference": "d9171137f97e9b14d71f7aa83ba5039b68efb8af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/c6c5a354a9945a5e9a9a6a495ca19558eb8639e9",
-                "reference": "c6c5a354a9945a5e9a9a6a495ca19558eb8639e9",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/d9171137f97e9b14d71f7aa83ba5039b68efb8af",
+                "reference": "d9171137f97e9b14d71f7aa83ba5039b68efb8af",
                 "shasum": ""
             },
             "require": {
@@ -1654,21 +1657,21 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2014-05-14 13:35:53"
+            "time": "2014-07-07 10:13:42"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.5.0",
+            "version": "v2.5.3",
             "target-dir": "Symfony/Component/EventDispatcher",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "cb62ec8dd05893fc8e4f0e6e21e326e1fc731fe8"
+                "reference": "8faf5cc7e80fde74a650a36e60d32ce3c3e0457b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/cb62ec8dd05893fc8e4f0e6e21e326e1fc731fe8",
-                "reference": "cb62ec8dd05893fc8e4f0e6e21e326e1fc731fe8",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/8faf5cc7e80fde74a650a36e60d32ce3c3e0457b",
+                "reference": "8faf5cc7e80fde74a650a36e60d32ce3c3e0457b",
                 "shasum": ""
             },
             "require": {
@@ -1701,33 +1704,31 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
                     "name": "Symfony Community",
                     "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
-            "time": "2014-04-29 10:13:57"
+            "time": "2014-07-28 13:20:46"
         },
         {
             "name": "symfony/finder",
-            "version": "v2.5.0",
+            "version": "v2.5.3",
             "target-dir": "Symfony/Component/Finder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "307aad2c541bbdf43183043645e186ef2cd6b973"
+                "reference": "090fe4eaff414d8f2171c7a4748ea868d530775f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/307aad2c541bbdf43183043645e186ef2cd6b973",
-                "reference": "307aad2c541bbdf43183043645e186ef2cd6b973",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/090fe4eaff414d8f2171c7a4748ea868d530775f",
+                "reference": "090fe4eaff414d8f2171c7a4748ea868d530775f",
                 "shasum": ""
             },
             "require": {
@@ -1750,33 +1751,31 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
                     "name": "Symfony Community",
                     "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2014-05-22 13:47:45"
+            "time": "2014-07-28 13:20:46"
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v2.5.0",
+            "version": "v2.5.3",
             "target-dir": "Symfony/Component/HttpFoundation",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "044085422005aa3258fb3f710a7bf0202011f259"
+                "reference": "53296aa0794ebe1e3880e3f2c68fe10ddad6c3e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/044085422005aa3258fb3f710a7bf0202011f259",
-                "reference": "044085422005aa3258fb3f710a7bf0202011f259",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/53296aa0794ebe1e3880e3f2c68fe10ddad6c3e3",
+                "reference": "53296aa0794ebe1e3880e3f2c68fe10ddad6c3e3",
                 "shasum": ""
             },
             "require": {
@@ -1805,33 +1804,31 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
                     "name": "Symfony Community",
                     "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2014-05-26 19:02:40"
+            "time": "2014-08-05 09:00:40"
         },
         {
             "name": "symfony/process",
-            "version": "v2.5.0",
+            "version": "v2.5.3",
             "target-dir": "Symfony/Component/Process",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "5d7d78e23894544740219e006320678cfa4cd45b"
+                "reference": "e0997d2a9a1a763484b34b989900b61322a9b056"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/5d7d78e23894544740219e006320678cfa4cd45b",
-                "reference": "5d7d78e23894544740219e006320678cfa4cd45b",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/e0997d2a9a1a763484b34b989900b61322a9b056",
+                "reference": "e0997d2a9a1a763484b34b989900b61322a9b056",
                 "shasum": ""
             },
             "require": {
@@ -1854,33 +1851,31 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
                     "name": "Symfony Community",
                     "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
-            "time": "2014-05-23 09:02:52"
+            "time": "2014-08-05 09:00:40"
         },
         {
             "name": "symfony/security-core",
-            "version": "v2.5.0",
+            "version": "v2.5.3",
             "target-dir": "Symfony/Component/Security/Core",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-core.git",
-                "reference": "de6e3aa1362d77f6bf91f17039cd403807ee5c27"
+                "reference": "d6a8860f015e1f8e8e42c2141a4a88b1965c32ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-core/zipball/de6e3aa1362d77f6bf91f17039cd403807ee5c27",
-                "reference": "de6e3aa1362d77f6bf91f17039cd403807ee5c27",
+                "url": "https://api.github.com/repos/symfony/security-core/zipball/d6a8860f015e1f8e8e42c2141a4a88b1965c32ec",
+                "reference": "d6a8860f015e1f8e8e42c2141a4a88b1965c32ec",
                 "shasum": ""
             },
             "require": {
@@ -1918,23 +1913,21 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
                     "name": "Symfony Community",
                     "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "Symfony Security Component - Core Library",
             "homepage": "http://symfony.com",
-            "time": "2014-04-23 14:08:54"
+            "time": "2014-08-05 09:00:40"
         },
         {
             "name": "symfony/security-csrf",
-            "version": "v2.5.0",
+            "version": "v2.5.3",
             "target-dir": "Symfony/Component/Security/Csrf",
             "source": {
                 "type": "git",
@@ -1974,14 +1967,12 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
                     "name": "Symfony Community",
                     "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "Symfony Security Component - CSRF Library",
@@ -2002,6 +1993,7 @@
         "openpsa/midcom-console": 20,
         "openpsa/midgard-portable": 20
     },
+    "prefer-stable": true,
     "platform": [
 
     ],
