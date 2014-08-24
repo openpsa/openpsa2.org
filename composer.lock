@@ -989,12 +989,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/openpsa-installer.git",
-                "reference": "c8d52ea801f29db3ce539d17b6423b5e95a7f5ab"
+                "reference": "0a378a15866775e46fce1b62be468328d25abffe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/openpsa-installer/zipball/c8d52ea801f29db3ce539d17b6423b5e95a7f5ab",
-                "reference": "c8d52ea801f29db3ce539d17b6423b5e95a7f5ab",
+                "url": "https://api.github.com/repos/flack/openpsa-installer/zipball/0a378a15866775e46fce1b62be468328d25abffe",
+                "reference": "0a378a15866775e46fce1b62be468328d25abffe",
                 "shasum": ""
             },
             "require": {
@@ -1028,7 +1028,7 @@
                 }
             ],
             "description": "Installer for OpenPSA components and projects",
-            "time": "2014-08-15 16:36:29"
+            "time": "2014-08-16 10:57:03"
         },
         {
             "name": "openpsa/midcom",
@@ -1036,12 +1036,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/openpsa.git",
-                "reference": "6d4ab2a802cdf05ada4c5aef9b731370b3aec6b1"
+                "reference": "602d070d44c7fd00d7024421badf970ba724a5c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/openpsa/zipball/6d4ab2a802cdf05ada4c5aef9b731370b3aec6b1",
-                "reference": "6d4ab2a802cdf05ada4c5aef9b731370b3aec6b1",
+                "url": "https://api.github.com/repos/flack/openpsa/zipball/602d070d44c7fd00d7024421badf970ba724a5c7",
+                "reference": "602d070d44c7fd00d7024421badf970ba724a5c7",
                 "shasum": ""
             },
             "require": {
@@ -1115,7 +1115,7 @@
                 "midgard",
                 "mvc"
             ],
-            "time": "2014-08-15 16:13:19"
+            "time": "2014-08-23 12:49:27"
         },
         {
             "name": "openpsa/midcom-console",
@@ -1123,16 +1123,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/midcom-console.git",
-                "reference": "ce43898cd670755b3e40553138ae9f2cdebd85f9"
+                "reference": "6ec486beb58699465423ae0119a92ae06500a571"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/midcom-console/zipball/ce43898cd670755b3e40553138ae9f2cdebd85f9",
-                "reference": "ce43898cd670755b3e40553138ae9f2cdebd85f9",
+                "url": "https://api.github.com/repos/flack/midcom-console/zipball/6ec486beb58699465423ae0119a92ae06500a571",
+                "reference": "6ec486beb58699465423ae0119a92ae06500a571",
                 "shasum": ""
             },
             "require": {
-                "openpsa/midcom": "dev-master",
+                "openpsa/midcom": "~9.0.0-rc.2",
                 "symfony/console": "~2.3.0@stable"
             },
             "bin": [
@@ -1160,7 +1160,7 @@
                 "console",
                 "midcom"
             ],
-            "time": "2014-06-23 13:27:25"
+            "time": "2014-08-15 21:05:44"
         },
         {
             "name": "openpsa/midgard-introspection",
@@ -1168,12 +1168,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/midgard-introspection.git",
-                "reference": "1064472a5af9a7179119808848742d7c26740312"
+                "reference": "da01e08847e8ffc8391d5f8ae2ac75e759c4fe6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/midgard-introspection/zipball/1064472a5af9a7179119808848742d7c26740312",
-                "reference": "1064472a5af9a7179119808848742d7c26740312",
+                "url": "https://api.github.com/repos/flack/midgard-introspection/zipball/da01e08847e8ffc8391d5f8ae2ac75e759c4fe6d",
+                "reference": "da01e08847e8ffc8391d5f8ae2ac75e759c4fe6d",
                 "shasum": ""
             },
             "require": {
@@ -1181,8 +1181,8 @@
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "midgard": "src/"
+                "psr-4": {
+                    "midgard\\introspection\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1201,7 +1201,7 @@
                 "midgard",
                 "reflection"
             ],
-            "time": "2014-07-12 19:52:53"
+            "time": "2014-08-16 11:06:02"
         },
         {
             "name": "openpsa/midgard-portable",
@@ -1209,12 +1209,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/midgard-portable.git",
-                "reference": "3b3803622eb208df952b20b33243d3dfcf87d564"
+                "reference": "31fdac557f9cf44baf326a920f3dc238fa880c1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/midgard-portable/zipball/3b3803622eb208df952b20b33243d3dfcf87d564",
-                "reference": "3b3803622eb208df952b20b33243d3dfcf87d564",
+                "url": "https://api.github.com/repos/flack/midgard-portable/zipball/31fdac557f9cf44baf326a920f3dc238fa880c1d",
+                "reference": "31fdac557f9cf44baf326a920f3dc238fa880c1d",
                 "shasum": ""
             },
             "require": {
@@ -1246,7 +1246,7 @@
                 }
             ],
             "description": "Pure PHP implementation of (parts of) the Midgard2 API",
-            "time": "2014-08-10 10:33:03"
+            "time": "2014-08-23 08:44:18"
         },
         {
             "name": "openpsa/quickform",
