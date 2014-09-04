@@ -989,12 +989,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/openpsa-installer.git",
-                "reference": "0a378a15866775e46fce1b62be468328d25abffe"
+                "reference": "5f2c7b990c0387c01401bf4d04491269533985e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/openpsa-installer/zipball/0a378a15866775e46fce1b62be468328d25abffe",
-                "reference": "0a378a15866775e46fce1b62be468328d25abffe",
+                "url": "https://api.github.com/repos/flack/openpsa-installer/zipball/5f2c7b990c0387c01401bf4d04491269533985e9",
+                "reference": "5f2c7b990c0387c01401bf4d04491269533985e9",
                 "shasum": ""
             },
             "require": {
@@ -1028,7 +1028,7 @@
                 }
             ],
             "description": "Installer for OpenPSA components and projects",
-            "time": "2014-08-16 10:57:03"
+            "time": "2014-08-23 16:29:06"
         },
         {
             "name": "openpsa/midcom",
@@ -1036,12 +1036,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/openpsa.git",
-                "reference": "602d070d44c7fd00d7024421badf970ba724a5c7"
+                "reference": "03e6bbf55d85220dd04c34dfbeb16c29d0ff9336"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/openpsa/zipball/602d070d44c7fd00d7024421badf970ba724a5c7",
-                "reference": "602d070d44c7fd00d7024421badf970ba724a5c7",
+                "url": "https://api.github.com/repos/flack/openpsa/zipball/03e6bbf55d85220dd04c34dfbeb16c29d0ff9336",
+                "reference": "03e6bbf55d85220dd04c34dfbeb16c29d0ff9336",
                 "shasum": ""
             },
             "require": {
@@ -1060,7 +1060,7 @@
                 "phpspec/php-diff": "1.0.*",
                 "sabre/vobject": "2.0.*",
                 "simplepie/simplepie": "1.3.*",
-                "swiftmailer/swiftmailer": "~5.0.0@stable",
+                "swiftmailer/swiftmailer": "~5.2.0@stable",
                 "symfony/event-dispatcher": "~2.4",
                 "symfony/http-foundation": "~2.4",
                 "symfony/security-csrf": "~2.4"
@@ -1076,7 +1076,7 @@
             "type": "midcom-package",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "9.0-dev"
+                    "dev-master": "9.0.x-dev"
                 }
             },
             "autoload": {
@@ -1115,7 +1115,7 @@
                 "midgard",
                 "mvc"
             ],
-            "time": "2014-08-23 12:49:27"
+            "time": "2014-09-04 21:49:09"
         },
         {
             "name": "openpsa/midcom-console",
@@ -1123,16 +1123,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/midcom-console.git",
-                "reference": "6ec486beb58699465423ae0119a92ae06500a571"
+                "reference": "70c9569fe3a5f5bfaa470eb034f79255431bc5fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/midcom-console/zipball/6ec486beb58699465423ae0119a92ae06500a571",
-                "reference": "6ec486beb58699465423ae0119a92ae06500a571",
+                "url": "https://api.github.com/repos/flack/midcom-console/zipball/70c9569fe3a5f5bfaa470eb034f79255431bc5fa",
+                "reference": "70c9569fe3a5f5bfaa470eb034f79255431bc5fa",
                 "shasum": ""
             },
             "require": {
-                "openpsa/midcom": "~9.0.0-rc.2",
+                "openpsa/midcom": ">=9.0.0-rc.2",
+                "openpsa/midgard-introspection": "dev-master",
                 "symfony/console": "~2.3.0@stable"
             },
             "bin": [
@@ -1160,7 +1161,7 @@
                 "console",
                 "midcom"
             ],
-            "time": "2014-08-15 21:05:44"
+            "time": "2014-09-04 10:09:43"
         },
         {
             "name": "openpsa/midgard-introspection",
@@ -1168,12 +1169,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/midgard-introspection.git",
-                "reference": "da01e08847e8ffc8391d5f8ae2ac75e759c4fe6d"
+                "reference": "16252d68a559e21fba16e9492807c7e3b7ce0313"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/midgard-introspection/zipball/da01e08847e8ffc8391d5f8ae2ac75e759c4fe6d",
-                "reference": "da01e08847e8ffc8391d5f8ae2ac75e759c4fe6d",
+                "url": "https://api.github.com/repos/flack/midgard-introspection/zipball/16252d68a559e21fba16e9492807c7e3b7ce0313",
+                "reference": "16252d68a559e21fba16e9492807c7e3b7ce0313",
                 "shasum": ""
             },
             "require": {
@@ -1201,7 +1202,7 @@
                 "midgard",
                 "reflection"
             ],
-            "time": "2014-08-16 11:06:02"
+            "time": "2014-08-23 17:27:45"
         },
         {
             "name": "openpsa/midgard-portable",
@@ -1209,19 +1210,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/midgard-portable.git",
-                "reference": "31fdac557f9cf44baf326a920f3dc238fa880c1d"
+                "reference": "f243659469caf00da2732793e46be70380210ee3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/midgard-portable/zipball/31fdac557f9cf44baf326a920f3dc238fa880c1d",
-                "reference": "31fdac557f9cf44baf326a920f3dc238fa880c1d",
+                "url": "https://api.github.com/repos/flack/midgard-portable/zipball/f243659469caf00da2732793e46be70380210ee3",
+                "reference": "f243659469caf00da2732793e46be70380210ee3",
                 "shasum": ""
             },
             "require": {
                 "doctrine/orm": "~2.4.4",
                 "monolog/monolog": "~1.9.1",
-                "php": ">=5.3.0"
+                "php": ">=5.3.0",
+                "symfony/console": "~2.3.0@stable"
             },
+            "bin": [
+                "bin/midgard-portable"
+            ],
             "type": "library",
             "autoload": {
                 "classmap": [
@@ -1246,7 +1251,7 @@
                 }
             ],
             "description": "Pure PHP implementation of (parts of) the Midgard2 API",
-            "time": "2014-08-23 08:44:18"
+            "time": "2014-09-04 17:02:59"
         },
         {
             "name": "openpsa/quickform",
@@ -1555,25 +1560,28 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.0.3",
+            "version": "v5.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "32edc3b0de0fdc1b10f5c4912e8677b3f411a230"
+                "reference": "2b9af56cc676c338d52fca4c657e5bdff73bb7af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/32edc3b0de0fdc1b10f5c4912e8677b3f411a230",
-                "reference": "32edc3b0de0fdc1b10f5c4912e8677b3f411a230",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/2b9af56cc676c338d52fca4c657e5bdff73bb7af",
+                "reference": "2b9af56cc676c338d52fca4c657e5bdff73bb7af",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
+            "require-dev": {
+                "mockery/mockery": "~0.9.1"
+            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "5.2-dev"
                 }
             },
             "autoload": {
@@ -1602,21 +1610,21 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2013-12-03 13:33:24"
+            "time": "2014-06-13 11:44:54"
         },
         {
             "name": "symfony/console",
-            "version": "v2.3.18",
+            "version": "v2.3.19",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "d9171137f97e9b14d71f7aa83ba5039b68efb8af"
+                "reference": "a2723f99716c2fa6411e2eb5842edbe680e4b462"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/d9171137f97e9b14d71f7aa83ba5039b68efb8af",
-                "reference": "d9171137f97e9b14d71f7aa83ba5039b68efb8af",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/a2723f99716c2fa6411e2eb5842edbe680e4b462",
+                "reference": "a2723f99716c2fa6411e2eb5842edbe680e4b462",
                 "shasum": ""
             },
             "require": {
@@ -1645,23 +1653,21 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
                     "name": "Symfony Community",
                     "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2014-07-07 10:13:42"
+            "time": "2014-08-07 15:55:24"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.5.3",
+            "version": "v2.5.4",
             "target-dir": "Symfony/Component/EventDispatcher",
             "source": {
                 "type": "git",
@@ -1718,17 +1724,17 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v2.5.3",
+            "version": "v2.5.4",
             "target-dir": "Symfony/Component/Finder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "090fe4eaff414d8f2171c7a4748ea868d530775f"
+                "reference": "f40854d1a19c339c7f969f8f6d6d6e9153311c4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/090fe4eaff414d8f2171c7a4748ea868d530775f",
-                "reference": "090fe4eaff414d8f2171c7a4748ea868d530775f",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/f40854d1a19c339c7f969f8f6d6d6e9153311c4c",
+                "reference": "f40854d1a19c339c7f969f8f6d6d6e9153311c4c",
                 "shasum": ""
             },
             "require": {
@@ -1761,21 +1767,21 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2014-07-28 13:20:46"
+            "time": "2014-09-03 09:00:14"
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v2.5.3",
+            "version": "v2.5.4",
             "target-dir": "Symfony/Component/HttpFoundation",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "53296aa0794ebe1e3880e3f2c68fe10ddad6c3e3"
+                "reference": "cec87359655f901a11de336576851d3957449947"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/53296aa0794ebe1e3880e3f2c68fe10ddad6c3e3",
-                "reference": "53296aa0794ebe1e3880e3f2c68fe10ddad6c3e3",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/cec87359655f901a11de336576851d3957449947",
+                "reference": "cec87359655f901a11de336576851d3957449947",
                 "shasum": ""
             },
             "require": {
@@ -1814,21 +1820,21 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2014-08-05 09:00:40"
+            "time": "2014-09-03 09:00:14"
         },
         {
             "name": "symfony/process",
-            "version": "v2.5.3",
+            "version": "v2.5.4",
             "target-dir": "Symfony/Component/Process",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "e0997d2a9a1a763484b34b989900b61322a9b056"
+                "reference": "136cf0bdaacea81f779583376d47dd8aef4fc6ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/e0997d2a9a1a763484b34b989900b61322a9b056",
-                "reference": "e0997d2a9a1a763484b34b989900b61322a9b056",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/136cf0bdaacea81f779583376d47dd8aef4fc6ba",
+                "reference": "136cf0bdaacea81f779583376d47dd8aef4fc6ba",
                 "shasum": ""
             },
             "require": {
@@ -1861,21 +1867,21 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
-            "time": "2014-08-05 09:00:40"
+            "time": "2014-08-31 03:22:04"
         },
         {
             "name": "symfony/security-core",
-            "version": "v2.5.3",
+            "version": "v2.5.4",
             "target-dir": "Symfony/Component/Security/Core",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-core.git",
-                "reference": "d6a8860f015e1f8e8e42c2141a4a88b1965c32ec"
+                "reference": "3294aea1af045eb67346257d364c3065cdda23b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-core/zipball/d6a8860f015e1f8e8e42c2141a4a88b1965c32ec",
-                "reference": "d6a8860f015e1f8e8e42c2141a4a88b1965c32ec",
+                "url": "https://api.github.com/repos/symfony/security-core/zipball/3294aea1af045eb67346257d364c3065cdda23b9",
+                "reference": "3294aea1af045eb67346257d364c3065cdda23b9",
                 "shasum": ""
             },
             "require": {
@@ -1923,11 +1929,11 @@
             ],
             "description": "Symfony Security Component - Core Library",
             "homepage": "http://symfony.com",
-            "time": "2014-08-05 09:00:40"
+            "time": "2014-09-03 09:22:15"
         },
         {
             "name": "symfony/security-csrf",
-            "version": "v2.5.3",
+            "version": "v2.5.4",
             "target-dir": "Symfony/Component/Security/Csrf",
             "source": {
                 "type": "git",
