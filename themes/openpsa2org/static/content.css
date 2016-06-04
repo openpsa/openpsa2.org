@@ -237,14 +237,21 @@ body.screenshots #slideshow_container .galleria-container
     margin: 0 auto;
 }
 
-body #content-navigation ul.tickets
+body #content-navigation ul.commits
 {
     max-height: 20em;
     overflow: auto;
 }
 
-body #content-navigation ul.tickets li
+body #content-navigation ul.commits li
 {
     padding-bottom: .5em;
     clear: both;
+}
+
+body #content-navigation ul.commits .timestamp
+{
+	display: block;
+	font-size: 80%;
+	color: #777;
 }
