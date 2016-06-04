@@ -12,7 +12,8 @@ var slideshow_data = <?php echo json_encode($data['entries']); ?>;
 
 $('#slideshow_container').galleria({
     dataSource: slideshow_data,
-    lightbox: true
+            lightbox: true,
+            height: 0.5625
 });
 </script>
 

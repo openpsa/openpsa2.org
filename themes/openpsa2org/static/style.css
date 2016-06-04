@@ -164,7 +164,7 @@ body.frontpage #content-text
 
 body.frontpage div.breadcrumb
 {
-    visibility: hidden;
+    display: none;
 }
 
 body.frontpage #content > #content-navigation

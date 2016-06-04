@@ -15,7 +15,7 @@ if (array_key_exists(1, $node_path))
         $navi->draw();
     }
 }
-else if (midcom_connection::get('uri') == '/') 
+else if (midcom_connection::get('uri') == '/')
 {
     midcom::get()->dynamic_load('/midcom-substyle-home/news/latest/5/');
 }

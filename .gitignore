@@ -7,3 +7,7 @@ var
 config/midgard2.ini
 config.inc.php
 *~
+/.settings/
+/.buildpath
+/.DS_Store
+/.project

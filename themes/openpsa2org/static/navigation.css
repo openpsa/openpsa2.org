@@ -139,12 +139,13 @@
 
 #content-navigation
 {
-    position: absolute;
-    right: 2em;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 3em;
     width: 25%;
     max-width: 19em;
     margin-top: 7em;
-    background-color: white;
     border-bottom-left-radius: .4em;
     border-bottom-right-radius: .4em;
 }
@@ -180,6 +181,7 @@
 
 #content-navigation ul
 {
+    background-color: white;
     padding: .75em 0 2em 0;
     margin: 0;
     list-style: none;

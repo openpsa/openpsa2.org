@@ -19,6 +19,7 @@
     font-size: 180%;
     margin-top: 1.8em;
     margin-bottom: 1.3em;
+    font-weight: normal
 }
 
 #content h2
@@ -40,12 +41,32 @@
 
 #content-text
 {
-    float: left;
+    display: inline-block;
+    vertical-align: top;
     line-height: 1.4em;
     width: 64%;
     text-align: justify;
     padding-left: 1.4em;
     padding-bottom: 1em;
+}
+
+#content-text .title-image
+{
+    position: relative;
+    background-size: cover;
+    height: 150px;
+    margin-left: -19px;
+    width: 153.5%;
+}
+#content-text .title-image h1
+{
+    background-color: rgba(255, 255, 255, 0.95);
+    display: inline-block;
+    line-height: 1.4;
+    margin-top: 0;
+    padding: 0.2em .8em;
+    position: absolute;
+    top: 36px;
 }
 
 #content-text li
