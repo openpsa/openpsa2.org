@@ -15,10 +15,10 @@ if ($data['comment']->rating > 0)
 }
 ?>
 
-<div class="net_nehmer_comments_comment">
+<div class="net_nehmer_comments_comment" id="net_nehmer_comments_<?php echo $data['comment']->guid; ?>">
     <h3 class="headline">&(view['title']);&(rating);</h3>
     <div class="published">&(published);</div>
-    
+
     <div class="content">&(view['content']:h);</div>
     <div class="net_nehmer_comments_comment_toolbar">
         <?php echo $data['comment_toolbar']->render(); ?>
