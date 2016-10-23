@@ -3,8 +3,7 @@
     "minimum-stability": "dev",
     "require": {
         "openpsa/midcom": "dev-master",
-        "openpsa/midcom-console": "dev-master",
-        "openpsa/midgard-portable": "dev-master"
+        "openpsa/midcom-console": "dev-master"
     },
     "prefer-stable": true,
     "scripts": {

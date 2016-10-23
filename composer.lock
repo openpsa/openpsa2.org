@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "58cd4059117eba9d51f2f8137ffa8ba7",
-    "content-hash": "d6a6de900c61443a2dfd68f02639a583",
+    "hash": "4db959cbe7b0eefb8487e941f281f94c",
+    "content-hash": "6b38785913c71d3db41819919bc6b87d",
     "packages": [
         {
             "name": "checkdomain/holiday",
@@ -1308,12 +1308,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/openpsa.git",
-                "reference": "79a5f1dab0bb361ccdcc3cff562b476baa8d0ae4"
+                "reference": "4503de1cb200fee986537f5e4758a6edcace530f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/openpsa/zipball/79a5f1dab0bb361ccdcc3cff562b476baa8d0ae4",
-                "reference": "79a5f1dab0bb361ccdcc3cff562b476baa8d0ae4",
+                "url": "https://api.github.com/repos/flack/openpsa/zipball/4503de1cb200fee986537f5e4758a6edcace530f",
+                "reference": "4503de1cb200fee986537f5e4758a6edcace530f",
                 "shasum": ""
             },
             "require": {
@@ -1327,6 +1327,7 @@
                 "midgard/midgardmvc-helper-urlize": "^1.1.1",
                 "openpsa/installer": "^1.0",
                 "openpsa/midgard-introspection": "^1.0",
+                "openpsa/midgard-portable": "^0.8.2",
                 "openpsa/quickform": "^3.3.0",
                 "openpsa/ranger": "^0.1.0",
                 "openpsa/universalfeedcreator": "^1.8.2",
@@ -1395,7 +1396,7 @@
                 "midgard",
                 "mvc"
             ],
-            "time": "2016-10-20 21:25:41"
+            "time": "2016-10-23 13:15:25"
         },
         {
             "name": "openpsa/midcom-console",
@@ -1486,16 +1487,16 @@
         },
         {
             "name": "openpsa/midgard-portable",
-            "version": "dev-master",
+            "version": "v0.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flack/midgard-portable.git",
-                "reference": "562a52e1835943be07a64f01da9556c0595e9451"
+                "reference": "f894555c67c793d937c0e06e0980f2f6dad41d33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/midgard-portable/zipball/562a52e1835943be07a64f01da9556c0595e9451",
-                "reference": "562a52e1835943be07a64f01da9556c0595e9451",
+                "url": "https://api.github.com/repos/flack/midgard-portable/zipball/f894555c67c793d937c0e06e0980f2f6dad41d33",
+                "reference": "f894555c67c793d937c0e06e0980f2f6dad41d33",
                 "shasum": ""
             },
             "require": {
@@ -1531,7 +1532,7 @@
                 }
             ],
             "description": "Pure PHP implementation of (parts of) the Midgard2 API",
-            "time": "2016-10-16 08:50:24"
+            "time": "2016-06-26 08:20:33"
         },
         {
             "name": "openpsa/quickform",
@@ -3502,8 +3503,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "openpsa/midcom": 20,
-        "openpsa/midcom-console": 20,
-        "openpsa/midgard-portable": 20
+        "openpsa/midcom-console": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
