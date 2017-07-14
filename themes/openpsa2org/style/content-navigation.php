@@ -1,5 +1,5 @@
 <?php
-$node_path = fi_protie_navigation::get_node_path();
+$node_path = $nap->get_node_path();
 if (array_key_exists(1, $node_path))
 {
     $node = $nap->get_node($node_path[1]);

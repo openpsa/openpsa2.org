@@ -4,10 +4,9 @@ $view = $data['view_article'];
 ?>
 
 <?php
-if (   array_key_exists('image', $data['datamanager']->types)
-    && !empty($data['datamanager']->types['image']->attachments_info['main']))
+if (!empty($view['image']))
 {
-    $img = $data['datamanager']->types['image']->attachments_info['main']['url'];
+    $img = midcom_db_attachment::get_url($data['datamanager']->get_storage()['image']['main']);
     ?>
     <div class="title-image" style="background-image: url(&(img););">
         <h1>&(view['title']:h);</h1>
