@@ -1,17 +1,14 @@
 <?php
 $nap = new midcom_helper_nav();
 
-if ($nap->get_current_node() === $nap->get_root_node())
-{
+if ($nap->get_current_node() === $nap->get_root_node()) {
     $body_class = 'frontpage';
-}
-else
-{
+} else {
     $node = $nap->get_node($nap->get_current_node());
     $parts = explode('/', $node[MIDCOM_NAV_RELATIVEURL]);
     $body_class = array_shift($parts);
 }
-$head = midcom::get('head');
+$head = midcom::get()->head;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,9 +20,9 @@ $head = midcom::get('head');
         $head->print_head_elements();
         ?>
     </head>
-    <body class="&(body_class); <?php echo midcom::get('metadata')->get_page_class(); ?>"<?php $head->print_jsonload(); ?>>
+    <body class="&(body_class); <?php echo midcom::get()->metadata->get_page_class(); ?>"<?php $head->print_jsonload(); ?>>
         <?php
-        midcom::get('toolbars')->show();
+        midcom::get()->toolbars->show();
         ?>
         <div id="container">
             <div class="corner top-left-corner">
@@ -37,8 +34,7 @@ $head = midcom::get('head');
                     <(grouplogo)>
                 </div>
                 <?php
-                if (!preg_match('/\/search\//', midcom_connection::get('uri')))
-                {
+                if (!preg_match('/\/search\//', midcom_connection::get_url('uri'))) {
                     ?><(searchbox)><?php
                 } ?>
             </div>
@@ -49,7 +45,7 @@ $head = midcom::get('head');
                 <(body)>
             </div>
 <?php
-midcom::get('uimessages')->show();
+midcom::get()->uimessages->show();
 ?>
             <div id="siteinfo">
                 <div class="siteinfo">

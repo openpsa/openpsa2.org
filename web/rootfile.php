@@ -36,6 +36,5 @@ setlocale(LC_ALL, 'en_US.UTF-8');
 // Start request processing
 $midcom = midcom::get();
 $midcom->codeinit();
-$midcom->content();
 $midcom->finish();
 ?>

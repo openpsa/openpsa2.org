@@ -2,8 +2,12 @@
     "name": "openpsa/openpsa2.org",
     "minimum-stability": "dev",
     "require": {
-        "openpsa/midcom": "dev-master",
-        "openpsa/midcom-console": "dev-master"
+        "openpsa/midcom": "dev-master"
+    },
+    "config": {
+    	"platform": {
+    		"php": "7.0.33"
+    	}
     },
     "prefer-stable": true,
     "scripts": {

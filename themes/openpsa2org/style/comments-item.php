@@ -9,8 +9,7 @@ $published = sprintf(
 );
 
 $rating = '';
-if ($data['comment']->rating > 0)
-{
+if ($data['comment']->rating > 0) {
     $rating = ', ' . sprintf('rated %s', $data['comment']->rating);
 }
 ?>

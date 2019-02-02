@@ -1,1 +1,1 @@
-<a href="<?php echo midcom_connection::get('self'); ?>"><img src="/openpsa-small.png" alt="<(title)>" /></a>
+<a href="<?php echo midcom_connection::get_url('self'); ?>"><img src="/openpsa-small.png" alt="<(title)>" /></a>

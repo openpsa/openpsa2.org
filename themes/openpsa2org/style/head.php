@@ -1,6 +1,6 @@
 <?php
-$themedir = MIDCOM_STATIC_URL . '/' . midcom::get('config')->get('theme') . '/';
-$head = midcom::get('head');
+$themedir = MIDCOM_STATIC_URL . '/' . midcom::get()->config->get('theme') . '/';
+$head = midcom::get()->head;
 ?>
 
 <link type="image/x-icon" href="/midcom-static/org.openpsa.core/openpsa-16x16.png" rel="shortcut icon"/>
@@ -11,8 +11,7 @@ $head->add_stylesheet($themedir . 'content.css', 'screen');
 $head->add_stylesheet($themedir . 'print.css', 'print');
 
 $head->enable_jquery();
-if (midcom_connection::get('uri') == '/')
-{
+if (midcom_connection::get_url('uri') == '/') {
     $head->add_jsfile(MIDCOM_STATIC_URL . '/org.openpsa.slideshow/galleria/galleria-1.3.5.min.js');
 }
 ?>
