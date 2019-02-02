@@ -1,7 +1,7 @@
 <?php
-if (!midcom_connection::get('user')) {
+if (!midcom_connection::get_user()) {
 ?>
-    <p class="login"><a href="<?php echo midcom_connection::get('self'); ?>midcom-login-">Login</a></p>
+    <p class="login"><a href="<?php echo midcom_connection::get_url('self'); ?>midcom-login-">Login</a></p>
 <?php
 }
 ?>
