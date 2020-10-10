@@ -5,30 +5,32 @@ require $basedir . 'vendor/autoload.php';
 
 midcom_connection::setup($basedir);
 define('OPENPSA2_THEME_ROOT', $basedir . 'themes/');
-define('MIDCOM_ROOT', $basedir . 'vendor/openpsa/midcom/lib');
 define('OPENPSA2_PREFIX', '/');
 
 header('Content-Type: text/html; charset=utf-8');
 
-$GLOBALS['midcom_config_local'] = array
-(
+$GLOBALS['midcom_config_local'] = [
     'person_class' => 'openpsa_person',
     'auth_type' => 'Legacy',
     'midcom_config_basedir' => $basedir . 'config',
     'log_filename' => $basedir . 'var/log/midcom.log',
     'cache_base_directory' => $basedir . 'var/cache/midcom/',
-    'midcom_services_rcs_root' => $basedir . 'var/rcs'
-);
-if (!file_exists($basedir . 'config.inc.php'))
-{
-    die('config missing');
-}
+    'midcom_services_rcs_root' => $basedir . 'var/rcs',
+    'midcom_components' => [
+        'fi.protie.navigation' => $basedir . 'vendor/openpsa/fi-protie-navigation/lib/fi/protie/navigation',
+        'net.nehmer.static' => $basedir . 'vendor/openpsa/net-nehmer-static/lib/net/nehmer/static',
+        'net.nehmer.blog' => $basedir . 'vendor/openpsa/net-nehmer-blog/lib/net/nehmer/blog',
+        'net.nehmer.comments' => $basedir . 'vendor/openpsa/net-nehmer-comments/lib/net/nehmer/comments',
+        'net.nemein.tag' => $basedir . 'vendor/openpsa/net-nemein-tag/lib/net/nemein/tag',
+        'net.nemein.rss' => $basedir . 'vendor/openpsa/net-nemein-rss/lib/net/nemein/rss',
+        'net.nemein.redirector' => $basedir . 'vendor/openpsa/net-nemein-redirector/lib/net/nemein/redirector',
+        'org.openpsa.slideshow' => $basedir . 'vendor/openpsa/org-openpsa-slideshow/lib/org/openpsa/slideshow',
+    ]
+];
 
-include $basedir . 'config.inc.php';
+require $basedir . 'config.inc.php';
 $GLOBALS['midcom_config_local']['theme'] = 'openpsa2org';
 
-// Include the MidCOM environment
-require MIDCOM_ROOT . '/midcom.php';
 
 midcom::get('i18n')->set_language('en');
 setlocale(LC_ALL, 'en_US.UTF-8');
@@ -36,5 +38,3 @@ setlocale(LC_ALL, 'en_US.UTF-8');
 // Start request processing
 $midcom = midcom::get();
 $midcom->codeinit();
-$midcom->finish();
-?>
