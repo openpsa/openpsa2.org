@@ -1,0 +1,4 @@
+services:
+    style.loader:
+        class: midcom\templating\dbloader
+        arguments: ['@cache.module.content']

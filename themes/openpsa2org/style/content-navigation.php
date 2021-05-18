@@ -12,7 +12,7 @@ if (array_key_exists(1, $node_path)) {
         $navi->draw();
     }
 } elseif (midcom_connection::get_url('uri') == '/') {
-    midcom::get()->dynamic_load('/midcom-substyle-home/news/latest/5/');
+    midcom::get()->dynamic_load('/news/latest/5/', 'home');
 }
 
 ?>

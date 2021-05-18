@@ -4,8 +4,6 @@ $basedir = dirname(__DIR__) . '/';
 require $basedir . 'vendor/autoload.php';
 
 midcom_connection::setup($basedir);
-define('OPENPSA2_THEME_ROOT', $basedir . 'themes/');
-define('OPENPSA2_PREFIX', '/');
 
 header('Content-Type: text/html; charset=utf-8');
 
@@ -14,7 +12,6 @@ $GLOBALS['midcom_config_local'] = [
     'auth_type' => 'Legacy',
     'midcom_config_basedir' => $basedir . 'config',
     'log_filename' => $basedir . 'var/log/midcom.log',
-    'cache_base_directory' => $basedir . 'var/cache/midcom/',
     'midcom_services_rcs_root' => $basedir . 'var/rcs',
     'midcom_components' => [
         'fi.protie.navigation' => $basedir . 'vendor/openpsa/fi-protie-navigation/lib/fi/protie/navigation',
@@ -31,10 +28,9 @@ $GLOBALS['midcom_config_local'] = [
 require $basedir . 'config.inc.php';
 $GLOBALS['midcom_config_local']['theme'] = 'openpsa2org';
 
-
-midcom::get('i18n')->set_language('en');
 setlocale(LC_ALL, 'en_US.UTF-8');
 
 // Start request processing
 $midcom = midcom::get();
+$midcom->i18n->set_language('en');
 $midcom->codeinit();
