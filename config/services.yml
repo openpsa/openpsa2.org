@@ -1,4 +1,4 @@
 services:
     style.loader:
         class: midcom\templating\dbloader
-        arguments: ['@cache.module.content']
+        arguments: ['%kernel.project_dir%/var/themes/', '@cache.module.content']
