@@ -1769,12 +1769,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/openpsa/midcom-core.git",
-                "reference": "304c8a011014206d642abef558c1dd9e8e2c30a6"
+                "reference": "91b02ff79fe7bb737b63d4b139f09a0dde4272c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openpsa/midcom-core/zipball/304c8a011014206d642abef558c1dd9e8e2c30a6",
-                "reference": "304c8a011014206d642abef558c1dd9e8e2c30a6",
+                "url": "https://api.github.com/repos/openpsa/midcom-core/zipball/91b02ff79fe7bb737b63d4b139f09a0dde4272c5",
+                "reference": "91b02ff79fe7bb737b63d4b139f09a0dde4272c5",
                 "shasum": ""
             },
             "require": {
@@ -1869,7 +1869,7 @@
             "support": {
                 "source": "https://github.com/openpsa/midcom-core/tree/main"
             },
-            "time": "2021-06-22T17:03:32+00:00"
+            "time": "2021-07-06T09:12:15+00:00"
         },
         {
             "name": "openpsa/midgard-portable",
