@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "19009852b0267b7aa61c527de11248c6",
+    "content-hash": "f2c3cfab7e98428d5994afea48943dbc",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -1843,6 +1843,58 @@
                 "source": "https://github.com/openpsa/midcom-core/tree/main"
             },
             "time": "2023-04-20T10:06:45+00:00"
+        },
+        {
+            "name": "openpsa/midcom-helper-search",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openpsa/midcom-helper-search.git",
+                "reference": "32904e62c4d5f968a076e018b4626c8ff4e2062e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/openpsa/midcom-helper-search/zipball/32904e62c4d5f968a076e018b4626c8ff4e2062e",
+                "reference": "32904e62c4d5f968a076e018b4626c8ff4e2062e",
+                "shasum": ""
+            },
+            "require": {
+                "openpsa/midcom-core": "dev-main"
+            },
+            "default-branch": true,
+            "type": "midcom-package",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Flack",
+                    "email": "flack@contentcontrol-berlin.de",
+                    "homepage": "http://www.contentcontrol-berlin.de/"
+                },
+                {
+                    "name": "Henri Bergius",
+                    "email": "henri.bergius@iki.fi",
+                    "homepage": "http://bergie.iki.fi/"
+                }
+            ],
+            "description": "Front-end for the midcom search service",
+            "homepage": "http://midgard-project.org/midcom/",
+            "keywords": [
+                "midcom",
+                "search"
+            ],
+            "support": {
+                "issues": "https://github.com/openpsa/midcom-helper-search/issues",
+                "source": "https://github.com/openpsa/midcom-helper-search/tree/main"
+            },
+            "time": "2022-06-08T09:07:11+00:00"
         },
         {
             "name": "openpsa/midgard-portable",
@@ -6564,6 +6616,7 @@
     "stability-flags": {
         "openpsa/midcom-core": 20,
         "openpsa/fi-protie-navigation": 20,
+        "openpsa/midcom-helper-search": 20,
         "openpsa/net-nehmer-blog": 20,
         "openpsa/net-nehmer-comments": 20,
         "openpsa/net-nehmer-static": 20,

@@ -4,6 +4,7 @@
     "require": {
         "openpsa/midcom-core": "dev-main",
         "openpsa/fi-protie-navigation": "dev-main",
+        "openpsa/midcom-helper-search": "dev-main",
         "openpsa/net-nehmer-blog": "dev-main",
         "openpsa/net-nehmer-comments": "dev-main",
         "openpsa/net-nehmer-static": "dev-main",

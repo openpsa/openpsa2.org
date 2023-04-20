@@ -15,6 +15,7 @@ $GLOBALS['midcom_config_local'] = [
     'midcom_services_rcs_root' => $basedir . 'var/rcs',
     'midcom_components' => [
         'fi.protie.navigation' => $basedir . 'vendor/openpsa/fi-protie-navigation/lib/fi/protie/navigation',
+        'midcom.helper.search' => $basedir . 'vendor/openpsa/midcom-helper-search/lib/midcom/helper/search',
         'net.nehmer.static' => $basedir . 'vendor/openpsa/net-nehmer-static/lib/net/nehmer/static',
         'net.nehmer.blog' => $basedir . 'vendor/openpsa/net-nehmer-blog/lib/net/nehmer/blog',
         'net.nehmer.comments' => $basedir . 'vendor/openpsa/net-nehmer-comments/lib/net/nehmer/comments',
